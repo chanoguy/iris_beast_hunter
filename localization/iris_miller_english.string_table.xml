@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<language id="english">
+
+	<!--Hamlet Strings and Skills-->
+
+	<entry id="hero_class_name_iris_miller"><![CDATA[Miller]]></entry>
+		
+	<entry id="action_verbose_body_blacksmith_iris_miller"><![CDATA[Slow and heavy, Miller's scythe can inflict tremendous damage to the foes caught out of guard by its reach. His vest may not look very durable, but the husk body under it offers a solid defence against any assault.]]></entry>
+	<entry id="action_verbose_body_guild_iris_miller"><![CDATA[Miller can wreak havoc upon enemies with just a single sweep. However, due to its predictable trajectory, it is best spared for harvesting wounded souls. Moreover, his natural leadership coupled with his husk nature allow him to control the battlefield, either by crippling his opponents or by infusing his companions with power from beyond the stars.
+	
+{colour_start|notable}CRIT Effect{colour_end}: ACC +10
+(2 rds)]]></entry>
+	<entry id="action_verbose_body_camping_trainer_iris_miller"><![CDATA[Miller has always known how to take care of a team, be it farmhands or fellow combatants. He provides the necessary care to appease the body and mind, and offers his guidance to others. Even when companions' needs are met, he can reflect on his own to bring out his best.]]></entry>
+
+	<entry id="town_event_title_miller_more_shards"><![CDATA[Miller's Gift]]></entry>
+	<entry id="town_event_description_miller_more_shards"><![CDATA[What seems to be the blessing of the Miller brought us this otherworldly fortune! Sometimes treasures do not exact limbs and bloods to be paid.]]></entry>
+	<entry id="town_event_title_miller_north_blaze"><![CDATA[A Blaze in the Northern Sky]]></entry>
+	<entry id="town_event_description_miller_north_blaze"><![CDATA[A comet gleaming with a color out of this space! Luckily it didn't strike the hamlet, but seems like this invited some strange heroes.]]></entry>
+	
+	<entry id="combat_skill_name_iris_miller_miller_masters_command"><![CDATA[{colour_start|yes_target_fre} ¤ ¤ ¤ ¤{colour_end}
+Master's Command]]></entry>
+	<entry id="combat_skill_name_iris_miller_miller_harvest"><![CDATA[The Harvest]]></entry>
+   	<entry id="combat_skill_name_iris_miller_miller_winters_breath"><![CDATA[{colour_start|yes_target_fre} ¤ ¤ ¤ ¤{colour_end}
+Winter's Breath]]></entry>
+   	<entry id="combat_skill_name_iris_miller_miller_cold_snap"><![CDATA[Cold Snap]]></entry>
+   	<entry id="combat_skill_name_iris_miller_miller_reaping"><![CDATA[The Reaping]]></entry>
+   	<entry id="combat_skill_name_iris_miller_miller_day_off"><![CDATA[{colour_start|yes_target_fre} ¤ ¤ ¤ ¤{colour_end}
+Day Off]]></entry>
+   	<entry id="combat_skill_name_iris_miller_miller_immortal_beloved"><![CDATA[Immortal Beloved]]></entry>
+   	<entry id="combat_skill_name_iris_miller_move"><![CDATA[Move]]></entry>
+		
+   	<entry id="upgrade_tree_name_iris_miller.miller_masters_command"><![CDATA[{colour_start|yes_target_fre} ¤ ¤ ¤ ¤{colour_end}
+Master's Command]]></entry>
+	<entry id="upgrade_tree_name_iris_miller.miller_harvest"><![CDATA[The Harvest]]></entry>
+   	<entry id="upgrade_tree_name_iris_miller.miller_winters_breath"><![CDATA[{colour_start|yes_target_fre} ¤ ¤ ¤ ¤{colour_end}
+Winter's Breath]]></entry>
+   	<entry id="upgrade_tree_name_iris_miller.miller_cold_snap"><![CDATA[Cold Snap]]></entry>
+   	<entry id="upgrade_tree_name_iris_miller.miller_reaping"><![CDATA[The Reaping]]></entry>
+   	<entry id="upgrade_tree_name_iris_miller.miller_day_off"><![CDATA[{colour_start|yes_target_fre} ¤ ¤ ¤ ¤{colour_end}
+Day Off]]></entry>
+   	<entry id="upgrade_tree_name_iris_miller.miller_immortal_beloved"><![CDATA[Immortal Beloved]]></entry>
+		
+	<entry id="miller_weapon_0"><![CDATA[Crumbling Scythe]]></entry>
+	<entry id="miller_weapon_1"><![CDATA[Shoddy Scythe]]></entry>
+   	<entry id="miller_weapon_2"><![CDATA[Sturdy Scythe]]></entry>
+   	<entry id="miller_weapon_3"><![CDATA[Crystalline Scythe]]></entry>
+   	<entry id="miller_weapon_4"><![CDATA["The Lamentation"]]></entry>
+   	<entry id="upgrade_tree_name_iris_miller.weapon"><![CDATA[Scythe]]></entry>
+			
+   	<entry id="miller_armour_0"><![CDATA[Worn Out Vest]]></entry>
+   	<entry id="miller_armour_1"><![CDATA[Ordinary Vest]]></entry> 
+   	<entry id="miller_armour_2"><![CDATA[Tightly Knit Vest]]></entry>
+   	<entry id="miller_armour_3"><![CDATA[Miller's Vest]]></entry>
+   	<entry id="miller_armour_4"><![CDATA["Crystalline Shell"]]></entry>
+   	<entry id="upgrade_tree_name_iris_miller.armour"><![CDATA[Farmer's Vest]]></entry>
+		
+	<entry id="camping_skill_name_miller_endless_harvest"><![CDATA[Endless Growth]]></entry>
+	<entry id="camping_skill_name_miller_refracted_light"><![CDATA[Refracted Light]]></entry>
+	<entry id="camping_skill_name_miller_winter_star"><![CDATA[Feast of the Winter Star]]></entry>
+	<entry id="camping_skill_name_miller_clarity"><![CDATA[Temporal Clarity]]></entry>
+	
+    <!-- Narrations -->
+
+    <entry id="str_vo_town_recruit_miller_0"><![CDATA[A lifetime of pious toil, an eternity of suffering.]]></entry>
+    <entry id="str_vo_town_event_miller_north_blaze_0"><![CDATA[The stars blaze with hateful light!]]></entry>
+    <entry id="str_vo_bad_afflicted_miller_fractured_0"><![CDATA[Lost in time and space!]]></entry>
+    <entry id="str_vo_bad_afflicted_miller_refracted_0"><![CDATA[Behold the horror that lurks behind the veil of glimmering starlight!]]></entry>
+    <entry id="str_vo_good_virtue_miller_luminous_0"><![CDATA[Witness the wondrous fury of the stars!]]></entry>
+
+    <!-- Party Combos -->
+    
+	<entry id="party_name_millerparty1"><![CDATA[My Body as a Shield]]></entry>
+	<entry id="party_name_millerparty2"><![CDATA[Wretches and Kings]]></entry>
+	<entry id="party_name_millerparty3"><![CDATA[Backstabbers]]></entry>
+	<entry id="party_name_millerparty4"><![CDATA[Farmers of War]]></entry>
+	<entry id="party_name_millerparty5"><![CDATA[Endless Harvest]]></entry>
+	<entry id="party_name_millerparty6"><![CDATA[The Four Horsemen]]></entry>
+	<entry id="party_name_millerparty7"><![CDATA[Single File!]]></entry>
+	<entry id="party_name_millerparty8"><![CDATA[The Farmhands]]></entry>
+	<entry id="party_name_millerparty9"><![CDATA[The Farmhands 2: Crystalline Boogaloo]]></entry>
+	<entry id="party_name_millerparty10"><![CDATA[The Living Dead]]></entry>
+	<entry id="party_name_millerparty11"><![CDATA[The Master Beckons]]></entry>
+	<entry id="party_name_millerparty12"><![CDATA[Thrice the Victim]]></entry>
+	<entry id="party_name_millerparty13"><![CDATA[Botany Study]]></entry>
+
+	<!-- Trinkets -->
+
+	<entry id="str_inventory_title_trinketmiller_common"><![CDATA[Scythe of Reaping]]></entry>
+	<entry id="str_inventory_title_trinketmiller_uncommon"><![CDATA[Small Grain Bag]]></entry>
+	<entry id="str_inventory_title_trinketmiller_uncommon_2"><![CDATA[Master's Satchel]]></entry>
+	<entry id="str_inventory_title_trinketmiller_rare"><![CDATA[Crystalline Rum]]></entry>
+	<entry id="str_inventory_title_trinketmiller_very_rare"><![CDATA[Rusty Trowel]]></entry>
+	<entry id="str_inventory_title_trinketmiller_CC_1"><![CDATA[Foreman's Whip]]></entry>
+	<entry id="str_inventory_title_trinketmiller_CC_2"><![CDATA[His Dearest Farmhand]]></entry>
+	<entry id="str_inventory_title_trinketmiller_CoM"><![CDATA[The Memory]]></entry>
+	<entry id="str_inventory_title_trinketmiller_SI"><![CDATA[Hyakusyō-ikki no hata]]></entry>
+	
+	<entry id="str_inventory_set_title_miller_common_lore"><![CDATA["When the famine encroached the farm, 
+I was not entirely sure of what's going on.
+Or rather, it would be better to say that they were beyond my ken."]]></entry>
+	<entry id="str_inventory_set_title_miller_uncommon_lore"><![CDATA["My feet, as lost as myself, couldn't follow any path,
+but to the observatory, high above our farmstead.
+He must've jeered at me. Someone whose hands reek of filthy manure."]]></entry>
+	<entry id="str_inventory_set_title_miller_rare_lore"><![CDATA["I did everything I could do to his likings. 
+The unsightly stones, foremen harassing my dear farmhands...
+In fact, all of those could not sate that famished, twisted mind."]]></entry>
+	<entry id="str_inventory_set_title_miller_very_rare_lore"><![CDATA["On a scorching summer day, 
+there was a freezing blaze in the north of the sky.
+Everything was stolen from me, except for my naivety."]]></entry>
+	<entry id="str_inventory_set_title_miller_CC_set"><![CDATA["A poor miller - thrice a victim.
+Stripped of all his life, a sad lost soul.
+Astray in the passage of time, wandering empty furrows left only to pine."]]></entry>
+	<entry id="str_inventory_set_title_miller_CoM_lore"><![CDATA["An indelible scar on the psyche,
+waiting to be pried open once again."]]></entry>
+	
+	<!--Tooltips-->
+
+	<entry id="buff_rule_tooltip_in_mode_false"><![CDATA[%s if NOT %s]]></entry>
+	<entry id="buff_rule_tooltip_target_hpbelow"><![CDATA[{?string1}%s (if Target HP below {?percent1}%d%%)]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Hero Being Hit:]]></entry>
+	<entry id="buff_stat_tooltip_hp_heal_dot_duration_percent"><![CDATA[{colour_start|healhp}Restoration{colour_end} Duration %+d%%]]></entry>
+	<entry id="camping_skill_effect_loot_IRISMILLERFOOD"><![CDATA[Produces 4-8 Foods]]></entry>
+
+	<entry id="buff_rule_data_tooltip_miller_fake_mode"><![CDATA[Miller]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_miller_command_forward_TT"><![CDATA[Target:
+{colour_start|move}Forward{colour_end} 1]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_miller_command_unstun_TT"><![CDATA[Party:
+Clear {colour_start|stun}Stun{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_harvest_onkill_TT"><![CDATA[On Kill:]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_dayoff_cooldown_TT"><![CDATA[{colour_start|move}Cooldown{colour_end}: 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_dayoff_cooldown_buff_TT"><![CDATA[{colour_start|notable}Day Off{colour_end}: on Cooldown]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_reaping_hit_TT"><![CDATA[Guaranteed to Hit]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_TT1"><![CDATA[
+Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_TT2_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 85]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_TT2_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 90 / CRIT +1%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_TT2_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 95 / CRIT +2%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_TT2_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 100 / CRIT +3%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_TT2_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 105 / CRIT +4%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_TT3"><![CDATA[On {colour_start|riposte}Riposte{colour_end}: CRIT +10%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_TT4"><![CDATA[On Critical Hit: Removes CRIT buff]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_buff_TT1_1"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 85]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_buff_TT1_2"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 90 / CRIT +1%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_buff_TT1_3"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 95 / CRIT +2%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_buff_TT1_4"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 100 / CRIT +3%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_buff_TT1_5"><![CDATA[{colour_start|riposte}Riposte{colour_end}: DMG -60%% / ACC 105 / CRIT +4%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_immortal_beloved_riposte_buff_TT2"><![CDATA[On {colour_start|riposte}Riposte{colour_end}: CRIT +10%%]]></entry>
+	
+	<entry id="buff_stat_tooltip_upgrade_discount_miller_common_TT"><![CDATA[On Monster Kill: Get 2-3 Shards]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_miller_uncommon_command_TT"><![CDATA[{colour_start|notable}Master's Command{colour_end}: Disable {colour_start|move}Forward{colour_end} on Target]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_miller_rare_TT_1"><![CDATA[On {colour_start|notable}Cold Snap{colour_end} Hit: {colour_start|blight}Blight{colour_end} Target {colour_start|skill_unselectable}(110~150%% base){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_miller_rare_TT_2"><![CDATA[3 pts/rd for 3 rds]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_miller_CC2_TT"><![CDATA[On Monster Kill: Refresh {colour_start|move}Cooldown{colour_end} on {colour_start|notable}Day Off{colour_end}]]></entry>
+
+	<entry id="str_monstername_mr_pepper_B"><![CDATA[]]></entry>
+    
+	<!-- Barks you need to translate -->
+	
+    <entry id="iris_miller+str_monster_user_selected_targets_kill_pill"><![CDATA[... My Mildred...]]></entry>
+    <entry id="iris_miller+str_afflicted_miller_refracted"><![CDATA[{colour_start|miller_comet}It's too late.{colour_end}]]></entry>
+    <entry id="iris_miller+str_afflicted_miller_refracted"><![CDATA[{colour_start|miller_comet}When the time comes, all will turn to nothingness.{colour_end}]]></entry>
+    <entry id="iris_miller+str_afflicted_miller_refracted"><![CDATA[{colour_start|miller_comet}The cosmos unfurls to my will.{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_camp_miller_refracted"><![CDATA[{colour_start|miller_comet}Even in respite, you cannot escape fate.{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_miller_refracted"><![CDATA[{colour_start|miller_comet}How futile.{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_miller_refracted"><![CDATA[{colour_start|miller_comet}Let your mind face your terrible fate.{colour_end}]]></entry>
+    <entry id="iris_miller+str_attack_friendly_miller_refracted"><![CDATA[{colour_start|miller_comet}To escape the inevitable is futility.{colour_end}]]></entry>
+    <entry id="iris_miller+str_mark_self_miller_refracted"><![CDATA[{colour_start|miller_comet}Soon, this shell will turn to ashes.{colour_end}]]></entry>
+    <entry id="iris_miller+str_roster_list_miller_refracted_bark"><![CDATA[{colour_start|miller_comet}Can you hear the comets shrieking?{colour_end}]]></entry>
+    <entry id="iris_miller+str_roster_list_miller_refracted_bark"><![CDATA[{colour_start|miller_comet}This shell is ready to embrace the colour.{colour_end}]]></entry>
+    <entry id="iris_miller+str_comment_self_hit_miller_refracted"><![CDATA[{colour_start|miller_comet}Soon, this shell will turn to ashes.{colour_end}]]></entry>
+    <entry id="iris_miller+str_comment_ally_hit_miller_refracted"><![CDATA[{colour_start|miller_comet}Embrace the colour. Be free from your flesh.{colour_end}]]></entry>
+    <entry id="iris_miller+str_comment_ally_attack_hit_miller_refracted"><![CDATA[{colour_start|miller_comet}To escape the inevitable is futility.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_miller_refracted"><![CDATA[{colour_start|miller_comet}An earthly rubbish.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_miller_refracted"><![CDATA[{colour_start|miller_comet}You cannot feed what cannot feel satiated.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_skill_target_miller_refracted"><![CDATA[{colour_start|miller_comet}You cannot ward the colour off.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_skill_target_miller_refracted"><![CDATA[{colour_start|miller_comet}An informidable act.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_heal_miller_refracted"><![CDATA[{colour_start|miller_comet}To delay the inescapable. Pathetic.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_heal_miller_refracted"><![CDATA[{colour_start|miller_comet}You dare to deny the colours.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_buff_miller_refracted"><![CDATA[{colour_start|miller_comet}To delay the inescapable. Pathetic.{colour_end}]]]></entry>
+    <entry id="iris_miller+str_block_buff_miller_refracted"><![CDATA[{colour_start|miller_comet}You dare to deny the colours.{colour_end}]]]></entry>
+	
+    <entry id="iris_miller+str_bark_stress_camp_color_madness"><![CDATA[{colour_start|miller_comet}Even in respite, you cannot escape fate.{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_color_madness"><![CDATA[{colour_start|miller_comet}How futile.{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_color_madness"><![CDATA[{colour_start|miller_comet}Let your mind face your terrible fate.{colour_end}]]></entry>
+    <entry id="iris_miller+str_attack_friendly_color_madness"><![CDATA[{colour_start|miller_comet}To escape the inevitable is futility.{colour_end}]]></entry>
+    <entry id="iris_miller+str_mark_self_color_madness"><![CDATA[{colour_start|miller_comet}Soon, this shell will turn to ashes.{colour_end}]]></entry>
+    <entry id="iris_miller+str_roster_list_color_madness_bark"><![CDATA[{colour_start|miller_comet}Can you hear the comets shrieking?{colour_end}]]></entry>
+    <entry id="iris_miller+str_roster_list_color_madness_bark"><![CDATA[{colour_start|miller_comet}This shell is ready to embrace the colour.{colour_end}]]></entry>
+    <entry id="iris_miller+str_comment_self_hit_color_madness"><![CDATA[{colour_start|miller_comet}Soon, this shell will turn to ashes.{colour_end}]]></entry>
+    <entry id="iris_miller+str_comment_ally_hit_color_madness"><![CDATA[{colour_start|miller_comet}Embrace the colour. Be free from your flesh.{colour_end}]]></entry>
+    <entry id="iris_miller+str_comment_ally_attack_hit_color_madness"><![CDATA[{colour_start|miller_comet}To escape the inevitable is futility.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_color_madness"><![CDATA[{colour_start|miller_comet}An earthly rubbish.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_color_madness"><![CDATA[{colour_start|miller_comet}You cannot feed what cannot feel satiated.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_skill_target_color_madness"><![CDATA[{colour_start|miller_comet}You cannot ward the colour off.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_skill_target_color_madness"><![CDATA[{colour_start|miller_comet}An informidable act.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_heal_color_madness"><![CDATA[{colour_start|miller_comet}To delay the inescapable. Pathetic.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_heal_color_madness"><![CDATA[{colour_start|miller_comet}You dare to deny the colours.{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_buff_color_madness"><![CDATA[{colour_start|miller_comet}To delay the inescapable. Pathetic.{colour_end}]]]></entry>
+    <entry id="iris_miller+str_block_buff_color_madness"><![CDATA[{colour_start|miller_comet}You dare to deny the colours.{colour_end}]]]></entry>
+
+    <entry id="iris_miller+str_bark_stress_miller_fractured"><![CDATA[{colour_start|miller_comet}This shell is crumbling.{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_miller_fractured"><![CDATA[{colour_start|miller_comet}Flesh and stone alike, all will be ashes.{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_miller_fractured"><![CDATA[{colour_start|miller_comet}With strange aeons, even death may die.{colour_end}]]></entry>
+
+	<!-- Virtues and Afflictions -->
+
+	<entry id="str_affliction_name_miller_refracted"><![CDATA[Refracted]]></entry>
+    <entry id="iris_miller+str_bark_stress_camp_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_camp_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_camp_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_change_pos_back_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_change_pos_fwd_miller_refracted"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_ignore_command_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_friendly_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_friendly_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_friendly_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_self_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_self_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_self_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_mark_self_miller_refracted"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_mark_self_miller_refracted"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_mark_self_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_self_hit_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_self_hit_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_ally_hit_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_ally_hit_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_ally_attack_hit_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_ally_attack_hit_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_move_miller_refracted"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_comment_curio_interaction_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_trap_triggered_miller_refracted"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_camping_meal_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_heart_attack_miller_refracted"><![CDATA[...!!]]></entry>	
+    <entry id="iris_miller+str_block_camping_skill_target_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_camping_skill_performer_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_heal_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_heal_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_heal_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_buff_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_buff_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_buff_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_effect_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_consume_item_miller_refracted"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_miller_refracted_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_miller_refracted_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_miller_refracted_bark"><![CDATA[...]]></entry>
+
+	<entry id="str_affliction_name_miller_fractured"><![CDATA[Fractured]]></entry>
+    <entry id="iris_miller+str_afflicted_miller_fractured"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_bark_stress_camp_miller_fractured"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_ignore_command_miller_fractured"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_random_command_miller_fractured"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_mark_self_miller_fractured"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_heal_miller_fractured"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_camping_heal_miller_fractured"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_roster_list_miller_fractured_bark"><![CDATA[...]]></entry>
+
+	<entry id="str_virtue_name_miller_luminous"><![CDATA[Luminous]]></entry>
+    <entry id="iris_miller+str_virtued_miller_luminous"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_mark_self_miller_luminous"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_stress_heal_party_miller_luminous"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_buff_party_miller_luminous"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_effect_miller_luminous"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_afflicted_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_camp_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_change_pos_back_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_change_pos_fwd_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_ignore_command_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_friendly_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_attack_self_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_mark_self_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_comment_self_hit_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_ally_hit_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_comment_ally_attack_hit_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_move_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_comment_curio_interaction_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_trap_triggered_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_camping_meal_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_heart_attack_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_camping_skill_target_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_camping_skill_performer_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_heal_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_buff_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_effect_color_madness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_consume_item_color_madness"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_roster_list_color_madness_bark"><![CDATA[...]]></entry>
+
+	<!-- Other Barks -->
+
+    <entry id="iris_miller+str_heart_attack"><![CDATA[!!!!!!!]]></entry>
+
+    <entry id="iris_miller+str_bark_encourage"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_first_aid"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_pep_talk"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_miller_endless_harvest"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_miller_refracted_light"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_miller_winter_star"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_miller_clarity"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_night_ambush_bark_0"><![CDATA[...?]]></entry>
+	<entry id="iris_miller+str_night_ambush_bark_1"><![CDATA[...?]]></entry>
+	<entry id="iris_miller+str_night_ambush_bark_2"><![CDATA[...?]]></entry>
+    
+    <entry id="iris_miller+str_critbyhero"><![CDATA[...]]></entry>
+
+    <entry id="iris_miller+str_monster_attack_unholy_smite"><![CDATA[...?]]></entry>
+    <entry id="iris_miller+str_monster_attack_unholy_judgement"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_monster_attack_unholy_curse"><![CDATA[...!!]]></entry>
+
+    <entry id="iris_miller+str_bark_stressdot"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_accelerated_stall"><![CDATA[...!]]></entry>
+    <entry id="iris_miller+bark_effective_difficulty"><![CDATA[...!!]]></entry>
+
+
+
+    <entry id="iris_miller+str_bark_deathsdoor"><![CDATA[...?]]></entry>
+	
+	<entry id="iris_miller+str_prisoner_damage_cauldron_full"><![CDATA[..!]]></entry>
+	
+	<entry id="iris_miller+str_control_before_turn_siren"><![CDATA[..!!]]></entry>
+
+	<entry id="iris_miller+str_control_return_siren"><![CDATA[...?]]></entry>
+
+	<entry id="iris_miller+str_prisoner_damage_drowned_anchored"><![CDATA[...?]]></entry>
+
+	<entry id="iris_miller+str_bark_hp_heal_dot"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_combat_knockback"><![CDATA[]]></entry>
+
+	<entry id="iris_miller+str_combat_wastingtime"><![CDATA[???]]></entry>
+
+	<entry id="iris_miller+str_monster_attack_obliterate_enraged"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_monster_attack_light_fuse"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_monster_attack_prophet_mark"><![CDATA[...]]></entry>
+
+    <entry id="iris_miller+str_flashback_bark_shieldbreaker"><![CDATA[...]]></entry>
+	
+    <entry id="iris_miller+egg_increment_bark_1"><![CDATA[...]]></entry>
+    <entry id="iris_miller+egg_increment_bark_2"><![CDATA[...]]></entry>
+    <entry id="iris_miller+egg_increment_bark_3"><![CDATA[...]]></entry>
+	
+    <entry id="iris_miller+str_bark_shuffled"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_shuffledot"><![CDATA[...]]></entry>	
+	
+    <entry id="iris_miller+quirk_evolution_death_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="iris_miller+quirk_transition_disease_vampire_blood_lust_to_disease_vampire_passive"><![CDATA[...]]></entry>
+    <entry id="iris_miller+quirk_transition_disease_vampire_crave_to_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="iris_miller+quirk_transition_disease_vampire_crave_to_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="iris_miller+quirk_transition_disease_vampire_passive_to_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="iris_miller+quirk_transition_disease_vampire_wasting_to_disease_vampire_passive"><![CDATA[...]]></entry>	
+	<entry id="iris_miller+str_stress_heal_self_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_attack_friendly_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_friendly_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_friendly_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_disease_vampire_crave"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_bark_stress_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_buff_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_buff_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_buff_disease_vampire_wasting"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_camping_meal_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_combat_retreat_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_heal_disease_vampire_blood_lust"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_heal_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_block_heal_disease_vampire_wasting"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_move_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_change_pos_fwd_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_change_pos_fwd_disease_vampire_crave"><![CDATA[...]]></entry>	
+	<entry id="iris_miller+str_comment_ally_hit_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_ally_hit_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_curio_interaction_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_curio_interaction_disease_vampire_wasting"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_comment_trap_triggered_disease_vampire_crave"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_comment_trap_triggered_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_ignore_command_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_ignore_command_disease_vampire_crave"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_ignore_command_disease_vampire_wasting"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_random_command_disease_vampire_blood_lust"><![CDATA[...]]></entry>
+
+    <entry id="iris_miller+str_wave_spawn_mash"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_wave_curio_room"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_wave_dungeon_weald"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_wave_dungeon_warrens"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_wave_dungeon_crypts"><![CDATA[...?]]></entry>
+    <entry id="iris_miller+str_wave_dungeon_cove"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_wave_dungeon_farm"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_boss_miller_harvest"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_boss_miller_grind"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_boss_miller_sadness"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_wave_dungeon_darkestdungeon"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_wave_dungeon_town"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_stagecoach_roster_limit_quirk_full_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_ignore_command_imposter_syndrome"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_quest_quirk"><![CDATA[...]]></entry>
+		
+    <entry id="iris_miller+str_bark_startmoving"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stopmoving"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_bark_backingup"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_increasingstress"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_bark_bigwound"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_bigwound_ally"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_bark_deathsdoor"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_deathsdoor_ally"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_deathsdoorsurvive"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_deathsdoorsurvive_ally"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_poisondot"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_bleeddot"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_bark_bleeddot"><![CDATA[...?]]></entry>	
+    <entry id="iris_miller+str_bark_bleeddot"><![CDATA[...!]]></entry>
+
+    <entry id="iris_miller+str_bark_torch_0"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_torch_1"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_torch_2"><![CDATA[...]]></entry>
+	
+    <entry id="iris_miller+str_bark_curiogood"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_curiobad"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_curiomeh"><![CDATA[...]]></entry>
+	
+    <entry id="iris_miller+str_bar_committed"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_gambling_committed"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_brothel_committed"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_meditation_committed"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_prayer_committed"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_flagellation_committed"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_treatment_committed"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_disease_treatment_committed"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_alcoholism_gambling_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_alcoholism_brothel_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_alcoholism_meditation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_alcoholism_prayer_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_alcoholism_flagellation_rejection"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_gambler_bar_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_gambler_brothel_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_gambler_meditation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_gambler_prayer_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_gambler_flagellation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_love_interest_bar_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_love_interest_gambling_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_love_interest_meditation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_love_interest_prayer_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_love_interest_flagellation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_enlightened_bar_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_enlightened_gambling_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_enlightened_brothel_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_enlightened_prayer_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_enlightened_flagellation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_god_fearing_bar_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_god_fearing_gambling_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller_str_god_fearing_brothel_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_god_fearing_meditation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_god_fearing_flagellation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_flagellant_bar_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_flagellant_gambling_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_flagellant_brothel_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_flagellant_meditation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_flagellant_prayer_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_resolution_bar_rejection"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_known_cheat_gambling_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_deviant_tastes_brothel_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_unquiet_mind_meditation_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_witness_prayer_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_faithless_prayer_rejection"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_faithless_flagellation_rejection"><![CDATA[...]]></entry>
+
+    <entry id="iris_miller+str_roster_list_low_stress_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_medium_stress_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_high_stress_bark"><![CDATA[...]]></entry>
+
+    <entry id="iris_miller+str_roster_list_bar_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_gambling_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_brothel_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_meditation_bark"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_roster_list_prayer_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_flagellation_bark"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_roster_list_treatment_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_roster_list_disease_treatment_bark"><![CDATA[...]]></entry>
+	
+    <entry id="iris_miller+str_quest_too_hard"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_quest_too_easy"><![CDATA[...]]></entry>
+    <entry id="str_incompatible_party_member_miller_limit"><![CDATA[...!]]></entry>
+
+    <entry id="iris_miller+trigger_curio_quirk_compulsive"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_curious"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_dark_temptation"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_guilty_conscience"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_kleptomaniac"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_bloodthirsty"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_hieromania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_ablutomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_dacnomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_egomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_hylomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_sitiomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_plutomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_necromania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_dipsomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_paranormania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_hagiomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_demonomania"><![CDATA[...]]></entry>
+    <entry id="iris_miller+trigger_curio_quirk_tapeworm"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_keep_loot_string"><![CDATA[...]]></entry>	
+
+    <entry id="iris_miller+str_bark_rest"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_partyhigh"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_partylow"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_hp_partylow"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_hp_partyhigh"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_bark_hp_selflow"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_hp_selfhigh"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_selflow"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_stress_selfhigh"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_party_great_condition"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_party_poor_condition"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_firewood_low"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_provisions_low"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_provisions_high"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_firewood_high"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_bark_companionship"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_roster_list_darkest_dungeon_survivor_bark"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_quest_darkest_dungeon"><![CDATA[...!]]></entry>
+		
+	<!--Mod Barks-->
+	<entry id="iris_miller+ph_bark_pocket_venom"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+str_kcc_bats_sleep"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_monster_user_selected_targets_eyeball_capture"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_kcc_shriekling_mourn_bark"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_watched_to_watched_evolved"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+quirk_transition_watched_evolved_to_watched"><![CDATA[...]]></entry>	
+	<entry id="iris_miller+str_attack_friendly_fishman_disease"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_attack_friendly_fishman_quirk"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_bark_stress_fishman_disease"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_bark_stress_fishman_quirk"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_roster_list_fishman_disease_bark"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_roster_list_fishman_quirk_bark"><![CDATA[...]]></entry>	
+	<entry id="iris_miller+quirk_transition_fishman_disease_to_fishman_quirk"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_fishman_disease_to_fishman_quirk"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_bark_stress_fishman_disease"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_bark_stress_fishman_quirk"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_monster_user_selected_targets_eyeball_capture"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_kcc_swine_blood_to_kcc_blood_disease_default"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_kcc_fungal_blood_to_kcc_blood_disease_default"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_kcc_deep_blood_to_kcc_blood_disease_default"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_kcc_eldritch_blood_to_kcc_blood_disease_default"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_fishman_disease_to_kcc_blood_disease_default"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_fishman_quirk_to_kcc_blood_disease_default"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_watched_to_kcc_blood_disease_default"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_watched_evolved_to_kcc_blood_disease_default"><![CDATA[...]]></entry>
+	
+    <entry id="iris_miller+str_flashback_bark_bogatyr_tene"><![CDATA[...]]></entry>
+	
+   <entry id="iris_miller+trigger_curio_quirk_insane"><![CDATA[...]]></entry>
+   <entry id="iris_miller+trigger_curio_quirk_insane"><![CDATA[...]]></entry>
+   <entry id="iris_miller+trigger_curio_quirk_insane"><![CDATA[...]]></entry>
+ 	<entry id="iris_miller+str_buff_random_party_member_inspiring_ship"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_comment_ally_hit_inspiring_ship"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_comment_ally_attack_missed_inspiring_ship"><![CDATA[...]]></entry>  
+	<entry id="iris_miller+str_buff_party_ship_traumatized"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_ship_traumatized"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_taira_blessing"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_taira_blessing"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_taira_blessing"><![CDATA[...?]]></entry>	
+	<entry id="iris_miller+str_monster_attack_bozu_nothing"><![CDATA[...?]]></entry>
+	<entry id="iris_miller+str_monster_attack_catfish_wave"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_monster_attack_catfish_lunge"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_monster_attack_yurei_free"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_monster_attack_lion_cry"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_monster_user_selected_targets_lion_roar"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_cook_supply"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_cook_overfed"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+notbm_bark_missing_record"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+str_monster_user_selected_targets_prophet_prophecy"><![CDATA[!!!]]></entry>
+	
+    <entry id="iris_miller+Apo_Apoc_Texts"><![CDATA[...]]></entry>
+    <entry id="iris_miller+Apo_Apoc_Texts"><![CDATA[...]]></entry>
+    <entry id="iris_miller+Apo_Apoc_Texts"><![CDATA[...]]></entry>
+    <entry id="iris_miller+Apo_Apoc_Texts"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_stress_heal_self_cho_portal_unstabilized"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_cho_portal_empyreal_ward"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_cho_portal_iron_defense"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_mark_self_cho_portal_spiteful"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_cho_portal_spiteful"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_cho_portal_spiteful"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_heal_self_cho_portal_morphing"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_party_cho_portal_shantyman"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_comment_self_missed_cho_doot_elusive"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_control_before_turn_drowned_doot"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_control_return_drowned_doot"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_cho_portal_unstable_to_cho_portal_unstabilized"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_cho_portal_unstabilized_to_cho_portal_unstable"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_cho_portal_metamorphed_to_cho_portal_morphing"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_cho_portal_morphing_to_cho_portal_metamorphed"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_cho_portal_empyreal_resistance_to_cho_portal_empyreal_ward"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_cho_portal_empyreal_ward_to_cho_portal_empyreal_resistance"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_cho_portal_inspiring"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_cho_portal_spiteful"><![CDATA[...]]></entry>	
+	
+    <entry id="iris_miller+trigger_curio_quirk_artistic"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_change_pos_fwd_eager_to_fight"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_ignore_command_imposter_syndrome"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_change_pos_back_quick_to_run"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_attack_friendly_negligent"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_stress_heal_party_cheerful"><![CDATA[...]]></entry>		
+    <entry id="iris_miller+str_bark_stress_gloomy"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_mark_self_prowler"><![CDATA[...]]></entry>		
+    <entry id="iris_miller+str_mark_self_boastful"><![CDATA[...]]></entry>			
+    <entry id="iris_miller+str_stress_heal_self_optimist"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_stress_heal_self_pessimist"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_combat_retreat_arrogant"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_move_stubborn"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_heal_superstitious"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_block_buff_uninspired"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_random_command_rebellious"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_stress_heal_self_bipolar"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_mark_self_bipolar"><![CDATA[...]]></entry>		
+    <entry id="iris_miller+str_consume_item_filcher"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+trigger_curio_quirk_gluttonous"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_mark_self_influx"><![CDATA[]]></entry>	
+    <entry id="iris_miller+str_ignore_command_mind_rot"><![CDATA[...]]></entry>			
+    <entry id="iris_miller+str_mark_self_paroxysm"><![CDATA[...]]></entry>			
+    <entry id="iris_miller+str_mark_self_pneumonia"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_attack_friendly_psychosis"><![CDATA[...]]></entry>		
+    <entry id="iris_miller+str_bark_stress_tongue_tie"><![CDATA[h]]></entry>	
+    <entry id="iris_miller+str_mark_self_dancing_plague"><![CDATA[...]]></entry>			
+	
+    <entry id="iris_miller+trigger_curio_quirk_thief"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_random_command_dumb"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_attack_friendly_homicidal"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_stress_heal_party_motivational"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_stress_heal_self_protagonist"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_change_pos_cho_nausea"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_ignore_command_cho_nausea"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_bark_stress_cho_nausea"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_mark_self_cho_nausea"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+blix_bad_bark"><![CDATA[...]]></entry>
+	<entry id="iris_miller+blix_bad_bark_eye"><![CDATA[...]]></entry>
+	<entry id="iris_miller+blix_good_bonus"><![CDATA[...]]></entry>
+	<entry id="iris_miller+blix_good_refresh"><![CDATA[...]]></entry>
+	<entry id="iris_miller+succ_bark_PYG_target"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_block_camping_meal_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_block_camping_meal_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+    <entry id="iris_miller+str_block_camping_meal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+    <entry id="iris_miller+str_bark_stress_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_bark_stress_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_block_heal_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_random_command_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+    <entry id="iris_miller+str_comment_curio_interaction_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_comment_move_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_comment_self_hit_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_comment_ally_hit_VV_quirk_Rage"><![CDATA[{{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+trigger_curio_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+trigger_curio_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+    <entry id="iris_miller+trigger_curio_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+Shadowplay_bark_target"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_monster_attack_hungry_eyes"><![CDATA[...]]></entry>
+	
+    <entry id="iris_miller+str_control_before_turn_succubus"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_control_return_succubus"><![CDATA[...]]></entry>	
+	
+	<entry id="iris_miller+str_attack_friendly_spice_addiction"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_consume_item_spice_addiction"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+quirk_transition_wos_quirk_1_to_wos_quirk_2"><![CDATA[...]]></entry>
+  	<entry id="iris_miller+quirk_transition_wos_quirk_2_to_wos_quirk_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_wos_quirk_3_to_wos_quirk_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_wos_quirk_4_to_wos_quirk_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+comic_bark"><![CDATA[...]]></entry>
+	<entry id="iris_miller+comic_bark_quirk"><![CDATA[...]]></entry>
+	<entry id="iris_miller+bark_praise_sun"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+str_monster_skill_roaming_cultist_bark_1"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+quirk_transition_sels_mind_corruption_I_to_sels_mind_corruption_II"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_mind_corruption_II_to_sels_mind_corruption_III"><![CDATA[...]]></entry>	
+	<entry id="iris_miller+sels_clan_leader_insult_barks"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_control_before_turn_mind_collector"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_control_return_mind_collector"><![CDATA[...]]></entry>	
+	
+    <entry id="iris_miller+quirk_transition_disease_fungal_passive_to_fungal_active"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_attack_friendly_pet_cemetery_quirk_04"><![CDATA[...]]></entry>
+ 	<entry id="iris_miller+str_attack_friendly_pet_cemetery_quirk_08"><![CDATA[...]]></entry>
+   <entry id="iris_miller+str_bark_pets_estate_flower_bouquet"><![CDATA[...]]></entry>
+	<entry id="iris_miller+bark_pets_estate_flower_dead"><![CDATA[...]]></entry>
+	<entry id="iris_miller+bark_pets_estate_flower_burned"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+HARL_bark_love"><![CDATA[...]]></entry>
+	<entry id="iris_miller+HARL_bark_cooties"><![CDATA[...]]></entry>
+	<entry id="iris_miller+HARL_bark_warts"><![CDATA[...]]></entry>
+	<entry id="iris_miller+bark_pets_supply_crab_meat"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+pica_bark_trigger_1"><![CDATA[...]]></entry>
+	<entry id="iris_miller+pica_bark_trigger_2"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+bark_sw_smoke_bomb"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+resc_drink_barrel_1"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+pets_bark_trigger_1"><![CDATA[...]]></entry>
+	<entry id="iris_miller+pets_bark_trigger_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+pets_bark_trigger_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+pets_bark_trigger_4"><![CDATA[...]]></entry>	
+	
+	<entry id="iris_miller+barb_ale_item_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+barb_ale_item_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+barb_ale_item_1"><![CDATA[...]]></entry>	
+	
+    <entry id="iris_miller+str_comment_ally_hit_flesh_tank"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_stress_heal_party_flesh_purity"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_stress_heal_self_flesh_joker"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_buff_random_party_member_flesh_soother"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_buff_random_party_member_flesh_vexing"><![CDATA[...]]></entry>
+
+    <entry id="iris_miller+str_attack_friendly_flesh_rot"><![CDATA[{colour_start|bleed}...{colour_end}]]></entry>
+    <entry id="iris_miller+str_random_command_flesh_rot"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_stress_heal_self_flesh_rot"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_stress_heal_self_flesh_rot"><![CDATA[...]]></entry>	
+    <entry id="iris_miller+str_heal_self_flesh_rot"><![CDATA[...]]></entry>
+    <entry id="iris_miller+str_comment_ally_attack_hit_flesh_rot"><![CDATA[{colour_start|set_title}...{colour_end}]]></entry>	
+    <entry id="iris_miller+str_comment_ally_attack_missed_flesh_rot"><![CDATA[{colour_start|set_title}...{colour_end}]]></entry>
+
+	<entry id="iris_miller+str_buff_random_party_member_skill_mastery"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_skill_mastery"><![CDATA[...]]></entry>		
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_bloodrage"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_bloodrage_B"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_toughness"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_dexterity"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_sight"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_healing"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_protection"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_strength"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_finesse"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_toxicity"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_scarlet_smarts"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_red_corruption"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_bloodthirsty"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_bloodthirsty"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_bloodrage_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_bloodlight_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_resilience_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_agility_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_sight_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_healing_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_protection_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_strength_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_piercing_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_finesse_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_toxicity_evo"><![CDATA[{colour_start|ancestral}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_buff_party_scarlet_protection_evo"><![CDATA[{colour_start|notable}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_heal_self_scarlet_healing_evo"><![CDATA[{colour_start|notable}...{colour_end}]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_scarlet_bloodrage_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_scarlet_bloodlight_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_scarlet_resilience_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_scarlet_agility_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_scarlet_healing_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_scarlet_protection_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_scarlet_sight_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_self_scarlet_toxicity_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_party_scarlet_bloodrage_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_stress_heal_party_scarlet_toxicity_evo"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_scarlet_healing_B"><![CDATA[{colour_start|notable}...{colour_end}]]></entry>
+	<entry id="iris_miller+shard_blight_bark"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+quirk_transition_sels_destruction_rank_1_to_sels_destruction_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_destruction_rank_1_to_sels_destruction_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_destruction_rank_2_to_sels_destruction_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_destruction_rank_2_to_sels_destruction_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_destruction_rank_3_to_sels_destruction_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_destruction_rank_3_to_sels_destruction_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_conjuration_rank_1_to_sels_conjuration_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_conjuration_rank_1_to_sels_conjuration_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_conjuration_rank_2_to_sels_conjuration_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_conjuration_rank_2_to_sels_conjuration_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_conjuration_rank_3_to_sels_conjuration_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_conjuration_rank_3_to_sels_conjuration_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_restoration_rank_1_to_sels_restoration_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_restoration_rank_1_to_sels_restoration_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_restoration_rank_2_to_sels_restoration_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_restoration_rank_2_to_sels_restoration_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_restoration_rank_3_to_sels_restoration_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_restoration_rank_3_to_sels_restoration_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_vampiric_rank_1_to_sels_vampiric_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_vampiric_rank_1_to_sels_vampiric_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_vampiric_rank_2_to_sels_vampiric_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_vampiric_rank_2_to_sels_vampiric_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_vampiric_rank_3_to_sels_vampiric_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_vampiric_rank_3_to_sels_vampiric_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_alteration_rank_1_to_sels_alteration_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_alteration_rank_1_to_sels_alteration_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_alteration_rank_2_to_sels_alteration_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_alteration_rank_2_to_sels_alteration_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_alteration_rank_3_to_sels_alteration_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_alteration_rank_3_to_sels_alteration_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_illusion_rank_1_to_sels_illusion_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_illusion_rank_1_to_sels_illusion_rank_2"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_illusion_rank_2_to_sels_illusion_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_illusion_rank_2_to_sels_illusion_rank_3"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_illusion_rank_3_to_sels_illusion_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_illusion_rank_3_to_sels_illusion_rank_4"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_mind_corruption_I_to_sels_mind_corruption_II"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_mind_corruption_I_to_sels_mind_corruption_II"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_mind_corruption_I_to_sels_mind_corruption_II"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_mind_corruption_II_to_sels_mind_corruption_III"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_mind_corruption_II_to_sels_mind_corruption_III"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_sels_mind_corruption_II_to_sels_mind_corruption_III"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+resc_drink_barrel_1"><![CDATA[...]]></entry>
+	
+	<entry id="iris_miller+quirk_transition_VV_quirk_1_to_vv_quirk_light"><![CDATA[{colour_start|voivode_colour}!!!{colour_end}]]></entry>
+	<entry id="iris_miller+quirk_transition_vv_quirk_light_to_VV_quirk_0"><![CDATA[{colour_start|virtue}...?{colour_end}]]></entry>
+	<entry id="iris_miller+VV_holywater_cleansing_bark_antivenom"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+VV_holywater_cleansing_bark_laudanum"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+quirk_transition_vv_quirk_light_to_VV_quirk_1"><![CDATA[{colour_start|voivode_colour...{colour_end}]]></entry>
+	<entry id="iris_miller+VV_holywater_cleansing_bark_0"><![CDATA[{colour_start|voivode_colour}!!!{colour_end}]]></entry>
+	<entry id="iris_miller+become_darkbrood_bark"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+quirk_transition_VV_quirk_2_to_VV_quirk_1"><![CDATA[{colour_start|voivode_colour}!!!!!{colour_end}]]></entry>
+	<entry id="iris_miller+quirk_transition_VV_quirk_1_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+	<entry id="iris_miller+quirk_transition_VV_quirk_2_to_VV_quirk_Rage"><![CDATA[{colour_start|voivode_colour}...{colour_end}]]></entry>
+    <entry id="iris_miller+quirk_transition_VV_quirk_Rage_to_VV_quirk_2"><![CDATA[{colour_start|voivode_colour}...?{colour_end}]]></entry>
+	
+	<entry id="iris_miller+str_attack_friendly_reptilian_brain"><![CDATA[!!!]]></entry>	
+	
+	<entry id="iris_miller+str_si_tofu_attack"><![CDATA[...?]]></entry>
+	<entry id="iris_miller+str_wave_dungeon_ship"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_wave_dungeon_town"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_wave_dungeon_town_wave"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+quirk_transition_vmt_dawnbringer_to_vmt_daybreaker"><![CDATA[...!]]></entry>
+	<entry id="iris_miller+quirk_transition_vmt_counterspell_to_vmt_hexer"><![CDATA[...!]]></entry>
+	<entry id="iris_miller+quirk_transition_vmt_acute_deafness_to_vmt_tended_deafness"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_warp_stone_addiction_radiating_to_warp_stone_addiction_warped"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_warp_stone_addiction_warped_to_warp_stone_addiction_exposed"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_warp_stone_addiction_enlaced_to_warp_stone_addiction_radiating"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_warp_stone_addiction_radiating_to_warp_stone_addiction_exposed"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_warp_stone_addiction_exposed_to_warp_stone_addiction_enlaced"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_warp_stone_addiction_exposed_to_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+quirk_transition_warp_stone_addiction_corrupted_to_warp_stone_addiction_exposed"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_consume_item_warp_stone_addiction_exposed"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_random_command_warp_stone_addiction_enlaced"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_attack_friendly_warp_stone_addiction_enlaced"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_mark_self_warp_stone_addiction_enlaced"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_block_combat_retreat_warp_stone_addiction_enlaced"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_bark_stress_warp_stone_addiction_radiating"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_party_warp_stone_addiction_radiating"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_consume_item_warp_stone_addiction_radiating"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_bark_stress_warp_stone_addiction_warped"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_attack_friendly_warp_stone_addiction_warped"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_mark_self_warp_stone_addiction_warped"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_warp_stone_addiction_warped"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_party_warp_stone_addiction_warped"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_block_combat_retreat_warp_stone_addiction_warped"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_bark_stress_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_ignore_command_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_random_command_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_attack_friendly_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_attack_self_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_consume_item_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_block_heal_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_block_buff_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_block_camping_meal_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_block_camping_skill_performer_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_block_camping_skill_target_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+	<entry id="iris_miller+trigger_curio_quirk_warp_stone_addiction_corrupted"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_stress_heal_party_vmt_standard_bearer"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_comment_ally_missed_vmt_standard_bearer"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_comment_ally_attack_hit_vmt_standard_bearer"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_comment_trap_triggered_vmt_standard_bearer"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_attack_friendly_vmt_dirty_rat"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_attack_friendly_vmt_betrayer"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_random_command_vmt_betrayer"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_mark_self_vmt_martyr"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_buff_random_party_member_vmt_martyr"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_stress_heal_self_vmt_mistwalker"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_mark_self_vmt_self_sufficient"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_consume_item_vmt_self_sufficient"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_ignore_command_vmt_yellow_skull_fever"><![CDATA[...]]></entry>
+
+	<entry id="iris_miller+str_monster_attack_to_the_dark"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_control_before_turn_grey_seer"><![CDATA[...!!]]></entry>
+	<entry id="iris_miller+str_control_return_grey_seer"><![CDATA[...?]]></entry>
+	<entry id="iris_miller+str_prisoner_damage_unclean_showcage_full"><![CDATA[...!]]></entry>
+
+	<entry id="iris_miller+str_monster_attack_courtyard_protect_the_blood"><![CDATA[...]]></entry>
+	<entry id="iris_miller+str_boss_countess_scared"><![CDATA[...?]]></entry>	
+	</language>
+</root>

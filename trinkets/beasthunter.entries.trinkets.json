@@ -1,0 +1,100 @@
+{
+   "entries":
+   [
+      {
+         "id" : "miller_common",
+         "set_id" : "miller_common_lore",
+         "buffs" : [ "TRINKET_miller_common_TT" ],
+         "kill_performer_additional_effects": [ "Miller Common Summon Effectholder" ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "common", "price" : 7500, "limit" : 1,  "origin_dungeon" : ""
+      },
+      {
+         "id" : "miller_uncommon",
+         "set_id" : "miller_uncommon_lore",
+         "buffs" : 
+         [
+            "TRINKET_miller_uncommon_HEALDOTDUR_B",
+            "TRINKET_miller_uncommon_HEAL_B",
+            "SPD-1"
+         ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "uncommon", "price" : 10000, "limit" : 1,  "origin_dungeon" : ""
+      },
+      {
+         "id" : "miller_uncommon_2",
+         "set_id" : "miller_uncommon_lore",
+         "buffs" : 
+         [
+            "TRINKET_miller_uncommon_MOVE_D",
+            "TRINKET_miller_uncommon_command_TT",
+            "PROT20"
+         ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "uncommon", "price" : 10000, "limit" : 1,  "origin_dungeon" : ""
+      },
+      {
+         "id" : "miller_rare",
+         "set_id" : "miller_rare_lore",
+         "buffs" : 
+         [
+            "TRINKET_miller_rare_DEBUFF_B",
+            "TRINKET_miller_rare_TT_1",
+            "TRINKET_miller_rare_TT_2",
+            "DEF-5"
+         ],
+         "ranged_attack_skill_additional_effects": [ "Miller Rare Blight" ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "rare", "price" : 15000, "limit" : 1,  "origin_dungeon" : ""
+      },
+      {
+         "id" : "miller_very_rare",
+         "set_id" : "miller_very_rare_lore",
+         "buffs" : 
+         [
+            "TRINKET_miller_very_rare_meleeDMGH_B",
+            "TRINKET_miller_very_rare_meleeDMGL_B",
+            "TRINKET_miller_very_rare_meleeACC_B",
+            "TRINKET_miller_very_rare_HEALP_D"
+         ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "very_rare", "price" : 25000, "limit" : 1,  "origin_dungeon" : ""
+      },
+      {
+         "id" : "miller_CC_1",
+         "set_id" : "miller_CC_set",
+         "buffs" : 
+         [ 
+            "TRINKET_miller_CC1_vsHPBelow30_CRIT_B"
+         ],
+         "attack_crit_additional_effects": [ "Miller CC1 Stress Heal" ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "crimson_court", "price" : 50000, "limit" : 1,  "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "miller_CC_2",
+         "set_id" : "miller_CC_set",
+         "buffs" : [ "TRINKET_miller_CC2_TT" ],
+         "friendly_skill_additional_effects": [ "Miller CC2 STRESSRECV Buff", "Miller CC2 HoT" ],
+         "kill_performer_additional_effects": [ "Miller CC2 Refresh DayOff" ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "crimson_court", "price" : 50000, "limit" : 1,  "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "miller_CoM",
+         "set_id" : "miller_CoM_lore",
+         "buffs" : 
+         [
+            "SPD3",
+            "DEF10",
+            "CRIT7",
+            "BLEEDRESIST-40",
+            "MAXHP-20"
+         ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "comet", "shard" : 30, "limit" : 1,  "origin_dungeon" : ""
+      },
+      {
+         "id" : "miller_SI",
+         "buffs" : 
+         [
+            "SPD2",
+            "ACC-10"
+         ],
+         "attack_skill_additional_effects": [ "Miller SI Friendly Buff", "Miller SI Target Guard Break", "Miller SI Target Guarding Break" ],
+         "hero_class_requirements": [ "iris_miller" ], "rarity" : "sakura", "price" : 30000, "limit" : 1, "origin_dungeon" : "ship"
+      }
+   ]
+}
