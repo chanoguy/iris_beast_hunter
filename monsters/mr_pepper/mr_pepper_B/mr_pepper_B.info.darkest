@@ -1,7 +1,0 @@
-display: .size 0
-enemy_type: .id "effectholder"
-stats: .hp -1
-loot: .code "IRISMILLERSHARD" .count 1
-initiative: .number_of_turns_per_round 0
-monster_brain: .id default
-battle_modifier: .accelerate_stall_penalty False .disable_stall_penalty False .can_surprise True .can_be_surprised True .always_surprise False .always_be_surprised False .can_be_damaged_directly false

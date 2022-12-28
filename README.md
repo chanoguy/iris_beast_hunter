@@ -1,3 +1,3 @@
-# miller_conversion
+# iris_beast_hunter
 
-a proejct to convert the Miller into a playable hero.
+a proejct to make the Beast Hunter a playable hero.

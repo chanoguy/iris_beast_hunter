@@ -1,27 +1,5 @@
 {
     "loot_tables" :
-    [
-       {
-          "id" : "IRISMILLERSHARD",
-          "difficulty" : 0,
-          "dungeon" : "",
-          "entries" :
-          [
-             { "type" : "item", "chances" : 1, "data" : { "type" : "shard", "id" : "", "amount" : 2 }},
-             { "type" : "item", "chances" : 1, "data" : { "type" : "shard", "id" : "", "amount" : 3 }}
-          ]
-       },
-       {
-         "id" : "IRISMILLERFOOD",
-         "difficulty" : 0,
-         "dungeon" : "",
-         "entries" :
-         [
-            { "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 4 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 6 }},
-            { "type" : "item", "chances" : 1, "data" : { "type" : "provision", "id" : "", "amount" : 8 }}
-         ]
-      }
-    ]
+    []
  }
  

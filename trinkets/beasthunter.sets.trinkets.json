@@ -1,34 +1,4 @@
 {
    "sets":
-   [
-      {
-         "id" : "miller_common_lore",
-         "buffs" : []
-      },
-      {
-         "id" : "miller_uncommon_lore",
-         "buffs" : []
-      },
-      {
-         "id" : "miller_rare_lore",
-         "buffs" : []
-      },
-      {
-         "id" : "miller_very_rare_lore",
-         "buffs" : []
-      },
-      {
-         "id" : "miller_CC_set",
-         "buffs" : 
-         [
-            "PROT10",
-            "TRINKET_miller_CC1_riposteDMGL_B",
-            "TRINKET_miller_CC1_riposteDMGH_B"
-         ]
-      },
-      {
-         "id" : "miller_CoM_lore",
-         "buffs" : []
-      }
-   ]
+   []
 }
