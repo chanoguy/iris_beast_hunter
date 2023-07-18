@@ -107,6 +107,175 @@
 					"prerequisite_requirements" : []
 				}
 			]
+		},
+		{
+			"id" : "BH_proofing_fire",
+			"level" : 0,
+			"cost" : 4,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingACCBuff",
+					"amount" :  0.15
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingCRITBuff",
+					"amount" :  0.1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "BH_ambush_chance_debuff",
+					"amount" :  0.33
+				}
+			],
+			"hero_classes" : ["beasthunter"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" : []
+				}
+			]
+		},
+		{
+			"id" : "BH_collect_trace",
+			"level" : 0,
+			"cost" : 1,
+			"use_limit" : 3,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingScoutingBuff",
+					"amount" :  0.05
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingSPDBuff",
+					"amount" :  -1
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+					"type": "loot",
+					"sub_type": "S",
+					"amount": 1
+				}
+			],
+			"hero_classes" : ["beasthunter"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" : []
+				}
+			]
+		},
+		{
+
+			"id" : "BH_spirit_shot",
+			"level" : 0,
+			"cost" : 3,
+			"use_limit" : 1,
+			"effects" : 
+			[
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+                    "type": "stress_heal_amount",
+                    "sub_type" : "",
+					"amount" :  40
+				}							
+			],
+			"hero_classes" : ["beasthunter"],
+			"upgrade_requirements" :  	
+			[
+				{
+					"code" : "0",
+					"currency_cost" :			
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" :
+					[
+						
+					]
+				}
+			]
+		},
+		{
+			"id" : "BH_throwaway",
+			"level" : 0,
+			"cost" : 2,
+			"use_limit" : 1,
+			"effects" :
+			[
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "a", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingDEFBuff",
+					"amount" :  0.05
+				},
+				{
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "b", "amount": 1.0 },
+					"type" : "buff",
+					"sub_type" : "campingCRITBuff",
+					"amount" :  0.05
+				},
+				{ 
+					"selection" : "self",
+					"requirements" : [],
+					"chance" : { "code" : "c", "amount": 1.0 },
+                    "type": "buff",
+                    "sub_type" : "campingPartySurprise",
+					"amount" : -0.05
+
+				}
+			],
+			"hero_classes" : ["beasthunter"],
+			"upgrade_requirements" :
+			[
+				{
+					"code" : "0",
+					"currency_cost" :
+					[
+						{ "type" : "gold", "amount" : 1750 }
+					],
+					"prerequisite_requirements" : []
+				}
+			]
 		}
 	]
 }

@@ -1,4 +1,20 @@
 {
    "buffs":
-   []
+   [
+      {
+         "id" : "BH_ambush_chance_debuff",
+         "stat_type" : "ambush_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
 }

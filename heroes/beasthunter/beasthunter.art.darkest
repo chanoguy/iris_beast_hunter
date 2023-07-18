@@ -12,15 +12,15 @@ armour: .name "beasthunter_armour_2" .icon "eqp_armour_2.png"
 armour: .name "beasthunter_armour_3" .icon "eqp_armour_3.png"
 armour: .name "beasthunter_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "beasthunter_harvest"       	.icon "one" 	.anim "attack_harvest" 	.fx "fx_harvest" .condensed_tooltip_effects	true .condensed_tooltip_effects_per_line 2	
-combat_skill: .id "beasthunter_reaping"          .icon "two"     .anim "attack_grind"    .fx "fx_grind"	 .targchestfx "blood_splatter" 		
-combat_skill: .id "beasthunter_winters_breath"   .icon "three"   .anim "attack_breath"   .fx "winters_breath" .targfx "breath_target" .custom_target_anim defend		        
-combat_skill: .id "beasthunter_cold_snap"        .icon "four"    .anim "attack_breath"   .fx "winters_breath" .targheadfx "crystal_horror_target"
-combat_skill: .id "beasthunter_masters_command"  .icon "five"    .anim "command" .fx "summon"
-combat_skill: .id "beasthunter_day_off"          .icon "six"     .anim "command" .targfx "dayoff_target"             
-combat_skill: .id "beasthunter_immortal_beloved" .icon "seven"   .anim "attack_despair"  .targfx "sadness"  
+combat_skill: .id "beasthunter_harvest"       	.icon "one" 	.anim "" 	.fx "" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 2	
+combat_skill: .id "beasthunter_reaping"          .icon "two"     .anim ""    .fx ""	 .targchestfx "" 		
+combat_skill: .id "beasthunter_winters_breath"   .icon "three"   .anim ""   .fx "" .targfx ""	        
+combat_skill: .id "beasthunter_cold_snap"        .icon "four"    .anim ""   .fx "" .targheadfx ""
+combat_skill: .id "beasthunter_masters_command"  .icon "five"    .anim "" .fx ""
+combat_skill: .id "beasthunter_day_off"          .icon "six"     .anim "" .targfx ""             
+combat_skill: .id "beasthunter_immortal_beloved" .icon "seven"   .anim ""  .targfx ""  
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
-riposte_skill: .id "beasthunter_riposte" .anim "attack_grind" .targchestfx "blood_splatter"
+riposte_skill: .id "beasthunter_riposte" .anim "" .targchestfx "blood_splatter"
 
-act_out_display: .attack_friendly_anim "fx_grind" .attack_friendly_fx "" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx ""
+act_out_display: .attack_friendly_anim "" .attack_friendly_fx "" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx ""
