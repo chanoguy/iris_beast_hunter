@@ -1,0 +1,62 @@
+
+beasthunter.sprite.domination.png
+size: 2928,1557
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: true
+  xy: 1228, 269
+  size: 1286, 1076
+  orig: 1691, 1235
+  offset: 404, 1
+  index: -1
+bounty_hunter.sprite.flashbang_target
+  rotate: false
+  xy: 2, 264
+  size: 1224, 1291
+  orig: 1226, 1293
+  offset: 1, 1
+  index: -1
+bounty_hunter.sprite.uppercut
+  rotate: true
+  xy: 2306, 49
+  size: 1506, 620
+  orig: 1508, 622
+  offset: 1, 1
+  index: -1
+shadow
+  rotate: false
+  xy: 312, 199
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+wood 1
+  rotate: true
+  xy: 2, 2
+  size: 260, 193
+  orig: 262, 195
+  offset: 1, 1
+  index: -1
+wood 2
+  rotate: false
+  xy: 312, 50
+  size: 185, 70
+  orig: 187, 72
+  offset: 1, 1
+  index: -1
+wood 3
+  rotate: true
+  xy: 197, 32
+  size: 230, 113
+  orig: 232, 115
+  offset: 1, 1
+  index: -1
+wood 4
+  rotate: true
+  xy: 312, 122
+  size: 75, 226
+  orig: 77, 228
+  offset: 1, 1
+  index: -1

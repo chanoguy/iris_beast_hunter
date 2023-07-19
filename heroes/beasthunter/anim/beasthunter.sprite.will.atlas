@@ -1,0 +1,27 @@
+
+beasthunter.sprite.will.png
+size: 1187,451
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body 1
+  rotate: true
+  xy: 2, 3
+  size: 446, 717
+  orig: 576, 776
+  offset: 68, 3
+  index: -1
+shadow
+  rotate: true
+  xy: 1122, 92
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+soul 1
+  rotate: true
+  xy: 721, 2
+  size: 447, 399
+  orig: 576, 776
+  offset: 71, 312
+  index: -1

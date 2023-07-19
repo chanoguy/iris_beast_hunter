@@ -1,0 +1,69 @@
+
+beasthunter.sprite.aimandfire.png
+size: 2180,614
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3
+  rotate: false
+  xy: 1789, 325
+  size: 226, 222
+  orig: 2077, 1962
+  offset: 886, 476
+  index: -1
+body 1
+  rotate: true
+  xy: 1218, 30
+  size: 582, 569
+  orig: 877, 610
+  offset: 34, 27
+  index: -1
+body 2
+  rotate: false
+  xy: 721, 5
+  size: 495, 607
+  orig: 877, 610
+  offset: 16, 2
+  index: -1
+fire 1
+  rotate: true
+  xy: 1789, 4
+  size: 203, 195
+  orig: 877, 610
+  offset: 529, 352
+  index: -1
+fire 2
+  rotate: true
+  xy: 1986, 12
+  size: 195, 192
+  orig: 877, 610
+  offset: 542, 355
+  index: -1
+fire 3
+  rotate: false
+  xy: 2017, 411
+  size: 142, 136
+  orig: 877, 610
+  offset: 290, 447
+  index: -1
+fire 4
+  rotate: true
+  xy: 2017, 209
+  size: 200, 96
+  orig: 877, 610
+  offset: 600, 402
+  index: -1
+shadow
+  rotate: false
+  xy: 1789, 549
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+shadow 2
+  rotate: false
+  xy: 2, 2
+  size: 717, 610
+  orig: 877, 610
+  offset: 44, 0
+  index: -1

@@ -20,6 +20,14 @@ riposte_skill: .id "beasthunter_riposte" .level 0 .type "melee" .atk 90% .dmg -4
 
 combat_skill: .id "BH_thinning" .level 0 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 1" "BH Thinning Other Buffs"
 combat_skill: .id "BH_thinning" .level 0 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
+combat_skill: .id "BH_thinning" .level 1 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 2" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 1 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
+combat_skill: .id "BH_thinning" .level 2 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 3" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 2 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
+combat_skill: .id "BH_thinning" .level 3 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 4" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 3 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
+combat_skill: .id "BH_thinning" .level 4 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 5" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 4 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
 
 // Aim and Fire
 

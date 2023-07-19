@@ -1,0 +1,48 @@
+
+beasthunter.sprite.onemanarmy.png
+size: 1948,775
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blood 1
+  rotate: false
+  xy: 1589, 80
+  size: 328, 143
+  orig: 1177, 835
+  offset: 846, 275
+  index: -1
+blood 2
+  rotate: false
+  xy: 1589, 500
+  size: 350, 273
+  orig: 1177, 835
+  offset: 775, 455
+  index: -1
+blood 3
+  rotate: false
+  xy: 1589, 225
+  size: 350, 273
+  orig: 1177, 835
+  offset: 508, 284
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 931, 771
+  orig: 1177, 835
+  offset: 22, 26
+  index: -1
+shadow
+  rotate: false
+  xy: 1589, 15
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+tentacle 1
+  rotate: true
+  xy: 935, 50
+  size: 723, 652
+  orig: 1177, 835
+  offset: 352, 145
+  index: -1
