@@ -1,0 +1,27 @@
+
+beasthunter.sprite.afflicted.png
+size: 1988,1131
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+afflicted
+  rotate: false
+  xy: 1345, 347
+  size: 641, 782
+  orig: 821, 840
+  offset: 97, 0
+  index: -1
+background
+  rotate: false
+  xy: 2, 2
+  size: 1341, 1127
+  orig: 1341, 1127
+  offset: 0, 0
+  index: -1
+crown
+  rotate: false
+  xy: 1345, 52
+  size: 369, 293
+  orig: 369, 293
+  offset: 0, 0
+  index: -1

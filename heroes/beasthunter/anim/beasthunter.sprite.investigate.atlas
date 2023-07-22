@@ -1,0 +1,20 @@
+
+beasthunter.sprite.investigate.png
+size: 690,403
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 399, 621
+  orig: 561, 724
+  offset: 81, 32
+  index: -1
+shadow
+  rotate: true
+  xy: 625, 44
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
