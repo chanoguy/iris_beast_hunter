@@ -15,6 +15,487 @@
             "float" : 0,
             "string" : ""
          }
+      },
+      {
+         "id" : "BH Thinning Stunres Buff 1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Stunres Buff 2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Stunres Buff 3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Stunres Buff 4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.28,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Stunres Buff 5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Moveres Buff 1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Moveres Buff 2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Moveres Buff 3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Moveres Buff 4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.28,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Moveres Buff 5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Bleedres Buff 1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Bleedres Buff 2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Bleedres Buff 3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Bleedres Buff 4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.28,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Bleedres Buff 5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Blightres Buff 1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Blightres Buff 2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Blightres Buff 3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Blightres Buff 4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.28,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Blightres Buff 5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Diseaseres Buff 1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Diseaseres Buff 2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Diseaseres Buff 3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Diseaseres Buff 4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.28,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Diseaseres Buff 5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Debuffres Buff 1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Debuffres Buff 2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Debuffres Buff 3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Debuffres Buff 4",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.28,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning Debuffres Buff 5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL 1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.6, 
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : { 
+            "float" : 0, 
+            "string" : "BH_aim_and_fire" 
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL 2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.7, 
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : { 
+            "float" : 0, 
+            "string" : "BH_aim_and_fire" 
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL 3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.8, 
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : { 
+            "float" : 0, 
+            "string" : "BH_aim_and_fire" 
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL 4",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.9, 
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : { 
+            "float" : 0, 
+            "string" : "BH_aim_and_fire" 
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL 5",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 1, 
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : { 
+            "float" : 0, 
+            "string" : "BH_aim_and_fire" 
+         }
+      },
+      {
+         "id" : "BH Thinning MAXHP Buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Thinning SPD Debuff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
       }
    ]
 }

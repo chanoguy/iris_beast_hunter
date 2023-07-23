@@ -12,7 +12,7 @@ armour: .name "beasthunter_armour_2" .icon "eqp_armour_2.png"
 armour: .name "beasthunter_armour_3" .icon "eqp_armour_3.png"
 armour: .name "beasthunter_armour_4" .icon "eqp_armour_4.png"
 
-combat_skill: .id "BH_thinning" .icon "one" .anim "" .fx ""
+combat_skill: .id "BH_thinning" .icon "one" .anim "thinning" .fx ""
 combat_skill: .id "BH_aim_and_fire" .icon "two" .anim "aimandfire" .fx ""
 combat_skill: .id "BH_hunted" .icon "three" .anim "domination" .fx ""
 combat_skill: .id "BH_reload" .icon "four" .anim "reload" .fx ""
