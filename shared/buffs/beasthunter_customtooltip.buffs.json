@@ -1,4 +1,201 @@
 {
    "buffs":
-   []
+   [
+      {
+         "id" : "BH_Thinning_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Thinning_TT_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Thinning_TT_2_lv1",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Thinning_TT_2",
+         "amount" : 20,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Thinning_TT_2_lv2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Thinning_TT_2",
+         "amount" : 23,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Thinning_TT_2_lv3",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Thinning_TT_2",
+         "amount" : 25,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Thinning_TT_2_lv4",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Thinning_TT_2",
+         "amount" : 28,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Thinning_TT_2_lv5",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Thinning_TT_2",
+         "amount" : 30,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Thinning_TT_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Thinning_TT_3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Thinning_TT_4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Thinning_TT_4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Reload_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Reload_TT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL TT 1",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Reload_Aim_DMGL",
+         "amount" : 60,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL TT 2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Reload_Aim_DMGL",
+         "amount" : 70,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL TT 3",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Reload_Aim_DMGL",
+         "amount" : 80,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL TT 4",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Reload_Aim_DMGL",
+         "amount" : 90,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Reload Aim DMGL TT 5",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Reload_Aim_DMGL",
+         "amount" : 100,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Reload_Loot_TT",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Reload_Loot_TT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "remove_on_battle_complete" : true,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
 }

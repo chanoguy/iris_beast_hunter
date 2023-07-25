@@ -1,62 +1,27 @@
 
 beasthunter.sprite.coup.png
-size: 1632,2030
+size: 1618,607
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-blood 1
-  rotate: false
-  xy: 2, 1327
-  size: 958, 701
-  orig: 1043, 731
-  offset: 85, 30
-  index: -1
-blood 2
-  rotate: true
-  xy: 2, 2
-  size: 595, 566
-  orig: 1043, 731
-  offset: 345, 146
-  index: -1
-blood 3
-  rotate: false
-  xy: 2, 599
-  size: 793, 726
-  orig: 1043, 731
-  offset: 206, 1
-  index: -1
 body 1
-  rotate: true
-  xy: 962, 1173
+  rotate: false
+  xy: 2, 2
   size: 855, 603
   orig: 1043, 731
   offset: 56, 19
   index: -1
 body 2
   rotate: true
-  xy: 797, 570
+  xy: 859, 4
   size: 601, 692
   orig: 1043, 731
   offset: 147, 13
   index: -1
 shadow
   rotate: true
-  xy: 1567, 1671
+  xy: 1553, 248
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
-  index: -1
-slash 1
-  rotate: true
-  xy: 1104, 146
-  size: 422, 510
-  orig: 1043, 731
-  offset: 593, 58
-  index: -1
-slash 2
-  rotate: true
-  xy: 570, 6
-  size: 562, 532
-  orig: 1043, 731
-  offset: 426, 73
   index: -1

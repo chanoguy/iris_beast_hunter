@@ -1,5 +1,15 @@
 {
     "loot_tables" :
-    []
+    [
+        {
+            "id" : "BHGAMELOOT",
+            "difficulty" : 0,
+            "dungeon" : "",
+            "entries" :
+            [
+                { "type" : "table", "chances" : 1, "data" : { "table" : "S" }}
+            ]
+        }
+    ]
  }
  

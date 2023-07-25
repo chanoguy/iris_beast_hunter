@@ -2,7 +2,50 @@
 <root>
 	<language id="english">
 
+	<entry id="hero_class_name_beasthunter"><![CDATA[Beast Hunter]]></entry>
+	<entry id="action_verbose_body_blacksmith_beasthunter"><![CDATA[His scratchy musket and rough clothing changed a lot as he reached the hamlet. Now it's time for him to take on the form of a hamlet here. Make him fight stronger, more accurate, and sharper, as his job does.]]></entry>
+	<entry id="action_verbose_body_guild_beasthunter"><![CDATA[His weapon is a musket he trusts, and a sharp dagger used to skin. One more thing is the manifestation of "sprouts" and he uses thinning to control the "sprouts" not to eat him. It manifests itself apart from his thoughts or his willingness to fight, and "sprouts" will help him not to die in hand-to-hand combat. The willingness to defend something while enduring sacrifice will drive "sprouts" out, for sure.]]></entry>
+	<entry id="action_verbose_body_camping_trainer_beasthunter"><![CDATA[He's a professional hunter. The patience to hide quietly and persevere until the prey appears, the momentary intuition for survival, and a unique body that can soothe his hunting tired body with a sip of alcohol. Of course, he tend to believe in superstitions to keep up with the good fortune.]]></entry>
+
 	<!-- Hamlet Strings and Skills-->
+
+	<entry id="combat_skill_name_beasthunter_BH_thinning"><![CDATA[Thinning]]></entry>
+	<entry id="combat_skill_name_beasthunter_BH_aim_and_fire"><![CDATA[Aim and Fire]]></entry>
+	<entry id="combat_skill_name_beasthunter_BH_domination"><![CDATA[Domination]]></entry>
+	<entry id="combat_skill_name_beasthunter_BH_reload"><![CDATA[Free Action
+Reload]]></entry>
+	<entry id="combat_skill_name_beasthunter_BH_oneman"><![CDATA[One Man Army]]></entry>
+	<entry id="combat_skill_name_beasthunter_BH_coup"><![CDATA[Coup de Melee]]></entry>
+	<entry id="combat_skill_name_beasthunter_BH_will"><![CDATA[{colour_start|beasthunter_friendly_target} ¤ ¤ ¤ ¤{colour_end}
+Will to Live]]></entry>
+    <entry id="combat_skill_name_beasthunter_move"><![CDATA[Move]]></entry>
+	<entry id="upgrade_tree_name_beasthunter.BH_thinning"><![CDATA[Thinning]]></entry>
+	<entry id="upgrade_tree_name_beasthunter.BH_aim_and_fire"><![CDATA[Aim and Fire]]></entry>
+	<entry id="upgrade_tree_name_beasthunter.BH_domination"><![CDATA[Domination]]></entry>
+	<entry id="upgrade_tree_name_beasthunter.BH_reload"><![CDATA[Free Action
+Reload]]></entry>
+	<entry id="upgrade_tree_name_beasthunter.BH_oneman"><![CDATA[One Man Army]]></entry>
+	<entry id="upgrade_tree_name_beasthunter.BH_coup"><![CDATA[Coup de Melee]]></entry>
+	<entry id="upgrade_tree_name_beasthunter.BH_will"><![CDATA[{colour_start|beasthunter_friendly_target} ¤ ¤ ¤ ¤{colour_end}
+Will to Live]]></entry>
+
+    <entry id="camping_skill_name_BH_proofing_fire"><![CDATA[Proofing Fire]]></entry>
+    <entry id="camping_skill_name_BH_collect_trace"><![CDATA[Collect Trace]]></entry>
+    <entry id="camping_skill_name_BH_spirit_shot"><![CDATA[A Shot of Spirit]]></entry>
+    <entry id="camping_skill_name_BH_throwaway"><![CDATA[Throw Away]]></entry>
+
+	<entry id="beasthunter_weapon_0"><![CDATA[Broken Musket, Dull Knife]]></entry>
+	<entry id="beasthunter_weapon_1"><![CDATA[Clean Firearm, Dagger]]></entry>
+	<entry id="beasthunter_weapon_2"><![CDATA[Luxurious Musket Set]]></entry>
+	<entry id="beasthunter_weapon_3"><![CDATA[Royal Muskets, Golden Swords]]></entry>
+	<entry id="beasthunter_weapon_4"><![CDATA["Left Behind,"]]></entry>
+	<entry id="upgrade_tree_name_beasthunter.weapon"><![CDATA[Flintlock and Dagger]]></entry>
+    <entry id="beasthunter_armour_0"><![CDATA[Poor Commoner's Cloth]]></entry>
+	<entry id="beasthunter_armour_1"><![CDATA[Professional Hunter's Cloth]]></entry> 
+    <entry id="beasthunter_armour_2"><![CDATA[Torn Coat]]></entry>
+    <entry id="beasthunter_armour_3"><![CDATA[Modern Royal Hunter Costume]]></entry>
+    <entry id="beasthunter_armour_4"><![CDATA["Yet, Still Struggling"]]></entry>
+    <entry id="upgrade_tree_name_beasthunter.armour"><![CDATA[Hunter's Cloth]]></entry>
 
     <!-- Narrations -->
 
@@ -12,7 +55,18 @@
 
 	<!-- Tooltips-->
 
-	<!-- Barks you need to translate -->
+    <entry id="str_skill_mode_info_BH_human"><![CDATA[
+{colour_start|notable}Before Transformation:{colour_end}]]></entry>
+    <entry id="str_skill_mode_info_BH_transformed"><![CDATA[
+{colour_start|notable}After Transformation:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_1"><![CDATA[Unleash the Sprouts
+{colour_start|mark}Mark{colour_end} Self]]></entry>
+	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_BH_Thinning_TT_2"><![CDATA[%+d%% {colour_start|notable}ALL{colour_end} Resists]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_3"><![CDATA[Tame the Sprouts]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_4"><![CDATA[Clear {colour_start|buff}Buffs{colour_end} from Thinning]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Reload_TT"><![CDATA[Acts Last in Current Round]]></entry>
+	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_BH_Reload_Aim_DMGL"><![CDATA[Aim and Fire: %+d%% Min DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Reload_Loot_TT"><![CDATA[On Next Kill: Gain a {colour_start|notable}Game{colour_end} Loot {colour_start|skill_unselectable}(Once per Combat){colour_end}]]></entry>
 	
 	<!-- Virtues and Afflictions -->
 

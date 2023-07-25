@@ -18,16 +18,21 @@ riposte_skill: .id "beasthunter_riposte" .level 0 .type "melee" .atk 90% .dmg -4
 
 // Thinning
 
-combat_skill: .id "BH_thinning" .level 0 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 1" "BH Thinning Other Buffs"
-combat_skill: .id "BH_thinning" .level 0 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
-combat_skill: .id "BH_thinning" .level 1 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 2" "BH Thinning Other Buffs"
-combat_skill: .id "BH_thinning" .level 1 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
-combat_skill: .id "BH_thinning" .level 2 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 3" "BH Thinning Other Buffs"
-combat_skill: .id "BH_thinning" .level 2 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
-combat_skill: .id "BH_thinning" .level 3 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 4" "BH Thinning Other Buffs"
-combat_skill: .id "BH_thinning" .level 3 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
-combat_skill: .id "BH_thinning" .level 4 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning Forward" "Mark Target" "BH Thinning Resistance Buff 5" "BH Thinning Other Buffs"
-combat_skill: .id "BH_thinning" .level 4 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs"
+combat_skill: .id "BH_thinning" .level 0 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning TT 1" "BH Thinning Forward" "BH Thinning Mark Target" "BH Thinning Resistance Buff 1" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 0 .valid_modes BH_human .BH_human_effects "BH Thinning TT 2 lv1"
+combat_skill: .id "BH_thinning" .level 0 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs" "BH Thinning TT 3" "BH Thinning TT 4"
+combat_skill: .id "BH_thinning" .level 1 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning TT 1" "BH Thinning Forward" "BH Thinning Mark Target" "BH Thinning Resistance Buff 2" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 1 .valid_modes BH_human .BH_human_effects "BH Thinning TT 2 lv2"
+combat_skill: .id "BH_thinning" .level 1 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs" "BH Thinning TT 3" "BH Thinning TT 4"
+combat_skill: .id "BH_thinning" .level 2 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning TT 1" "BH Thinning Forward" "BH Thinning Mark Target" "BH Thinning Resistance Buff 3" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 2 .valid_modes BH_human .BH_human_effects "BH Thinning TT 2 lv3"
+combat_skill: .id "BH_thinning" .level 2 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs" "BH Thinning TT 3" "BH Thinning TT 4"
+combat_skill: .id "BH_thinning" .level 3 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning TT 1" "BH Thinning Forward" "BH Thinning Mark Target" "BH Thinning Resistance Buff 4" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 3 .valid_modes BH_human .BH_human_effects "BH Thinning TT 2 lv4"
+combat_skill: .id "BH_thinning" .level 3 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs" "BH Thinning TT 3" "BH Thinning TT 4"
+combat_skill: .id "BH_thinning" .level 4 .type "" .launch 4321 .target .is_continue_turn true .per_turn_limit 1 .per_battle_limit 2 .is_stall_invalidating false .refresh_after_each_wave true .valid_modes BH_human .BH_human_effects "BH To Transformed" "BH Thinning TT 1" "BH Thinning Forward" "BH Thinning Mark Target" "BH Thinning Resistance Buff 5" "BH Thinning Other Buffs"
+combat_skill: .id "BH_thinning" .level 4 .valid_modes BH_human .BH_human_effects "BH Thinning TT 2 lv5"
+combat_skill: .id "BH_thinning" .level 4 .valid_modes BH_transformed .BH_transformed_effects "BH To Human" "BH Thinning Backward" "BH Thinning Clean Buffs" "BH Thinning TT 3" "BH Thinning TT 4"
 
 // Aim and Fire
 
@@ -39,19 +44,19 @@ combat_skill: .id "BH_aim_and_fire" .level 4 .type "ranged" .atk 110% .dmg 0% .c
 
 // Domination
 
-combat_skill: .id "BH_hunted" .level 0 .type "ranged" .atk 90% .dmg -25% .crit 9% .launch 321 .target 123 .valid_modes BH_human .effect "Stun 1"
-combat_skill: .id "BH_hunted" .level 1 .type "ranged" .atk 95% .dmg -25% .crit 10% .launch 321 .target 123 .valid_modes BH_human .effect "Stun 2"
-combat_skill: .id "BH_hunted" .level 2 .type "ranged" .atk 100% .dmg -25% .crit 11% .launch 321 .target 123 .valid_modes BH_human .effect "Stun 3"
-combat_skill: .id "BH_hunted" .level 3 .type "ranged" .atk 105% .dmg -25% .crit 12% .launch 321 .target 123 .valid_modes BH_human .effect "Stun 4"
-combat_skill: .id "BH_hunted" .level 4 .type "ranged" .atk 110% .dmg -25% .crit 13% .launch 321 .target 123 .valid_modes BH_human .effect "Stun 5"
+combat_skill: .id "BH_domination" .level 0 .type "ranged" .atk 90% .dmg -25% .crit 9% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 1"
+combat_skill: .id "BH_domination" .level 1 .type "ranged" .atk 95% .dmg -25% .crit 10% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 2"
+combat_skill: .id "BH_domination" .level 2 .type "ranged" .atk 100% .dmg -25% .crit 11% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 3"
+combat_skill: .id "BH_domination" .level 3 .type "ranged" .atk 105% .dmg -25% .crit 12% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 4"
+combat_skill: .id "BH_domination" .level 4 .type "ranged" .atk 110% .dmg -25% .crit 13% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 5"
 
 // Reload
 
-combat_skill: .id "BH_reload" .level 0 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 1" "BH Reload Actordot"
-combat_skill: .id "BH_reload" .level 1 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 2" "BH Reload Actordot"
-combat_skill: .id "BH_reload" .level 2 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 3" "BH Reload Actordot"
-combat_skill: .id "BH_reload" .level 3 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 4" "BH Reload Actordot"
-combat_skill: .id "BH_reload" .level 4 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 5" "BH Reload Actordot"
+combat_skill: .id "BH_reload" .level 0 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 1" "BH Reload Loot TT" "BH Reload Actordot"
+combat_skill: .id "BH_reload" .level 1 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 2" "BH Reload Loot TT" "BH Reload Actordot"
+combat_skill: .id "BH_reload" .level 2 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 3" "BH Reload Loot TT" "BH Reload Actordot"
+combat_skill: .id "BH_reload" .level 3 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 4" "BH Reload Loot TT" "BH Reload Actordot"
+combat_skill: .id "BH_reload" .level 4 .type "" .launch 4321 .target .move 3 0 .valid_modes BH_human .per_battle_limit 1 .is_stall_invalidating false .effect "BH Reload SPD Debuff" "BH Reload Initiative Plus" "BH Reload TT" "BH Reload Aim DMGL Buff 5" "BH Reload Loot TT" "BH Reload Actordot"
 
 // One Man Army
 
@@ -63,11 +68,11 @@ combat_skill: .id "BH_oneman" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 
 
 // Domination
 
-combat_skill: .id "BH_domination" .level 0 .type "melee" .atk 90% .dmg 0% .crit 7% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 1"
-combat_skill: .id "BH_domination" .level 1 .type "melee" .atk 95% .dmg 0% .crit 8% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 2"
-combat_skill: .id "BH_domination" .level 2 .type "melee" .atk 100% .dmg 0% .crit 9% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 3"
-combat_skill: .id "BH_domination" .level 3 .type "melee" .atk 105% .dmg 0% .crit 10% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 4"
-combat_skill: .id "BH_domination" .level 4 .type "melee" .atk 110% .dmg 0% .crit 11% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 5"
+combat_skill: .id "BH_coup" .level 0 .type "melee" .atk 90% .dmg 0% .crit 7% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 1"
+combat_skill: .id "BH_coup" .level 1 .type "melee" .atk 95% .dmg 0% .crit 8% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 2"
+combat_skill: .id "BH_coup" .level 2 .type "melee" .atk 100% .dmg 0% .crit 9% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 3"
+combat_skill: .id "BH_coup" .level 3 .type "melee" .atk 105% .dmg 0% .crit 10% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 4"
+combat_skill: .id "BH_coup" .level 4 .type "melee" .atk 110% .dmg 0% .crit 11% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 5"
 
 // Will to Live
 
@@ -86,5 +91,5 @@ tag: .id "outsiders_bonfire"
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 4
 id_index: .index 453783745
-skill_selection: .can_select_combat_skills true .number_of_selected_combat_skills_max 7
+skill_selection: .can_select_combat_skills false .number_of_selected_combat_skills_max 7
 generation: .is_generation_enabled true .number_of_positive_quirks_min 1 .number_of_positive_quirks_max 2 .number_of_negative_quirks_min 1 .number_of_negative_quirks_max 2 .number_of_class_specific_camping_skills 2 .number_of_shared_camping_skills 1 .number_of_random_combat_skills 7 .number_of_cards_in_deck 60 .card_chance 10.0
