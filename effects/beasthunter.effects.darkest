@@ -49,7 +49,8 @@ effect: .name "BH Reload Actordot" .target "performer" .actor_dot beasthunter_re
 effect: .name "beasthunter_reload_summon" .target "performer" .summon_can_spawn_loot true .summon_monsters chanwoo_A .summon_chances 1.0 .summon_count 1 .summon_ranks 01234 .on_hit true .on_miss true
 
 // One Man Army
-effect: .name "BH Oneman Mark Self" .target "performer" .tag 1 .duration 3 .on_hit true .on_miss true
+effect: .name "BH Oneman Mark Self" .target "performer" .tag 1 .duration 3 .on_hit true .on_miss true .has_description false
+effect: .name "BH Oneman TT" .target "performer" .skill_instant true .buff_ids "BH_Oneman_TT" .on_hit true .on_miss true
 
 // Coup de Melee
 effect: .name "BH Domination vsMarked DMG Buff" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false

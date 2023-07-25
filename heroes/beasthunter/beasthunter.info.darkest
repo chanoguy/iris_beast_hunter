@@ -13,7 +13,7 @@ armour: .name "beasthunter_armour_2" .def 15% .prot 0 .hp 37 .spd 0     .upgrade
 armour: .name "beasthunter_armour_3" .def 20% .prot 0 .hp 42 .spd 0     .upgradeRequirementCode 2
 armour: .name "beasthunter_armour_4" .def 25% .prot 0 .hp 47 .spd 0     .upgradeRequirementCode 3
 
-combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321
+combat_move_skill: .id "move" .level 0 .type "move" .move 1 1 .launch 4321 .valid_modes BH_human BH_transformed .BH_transformed_effects "BH To Human" "BH To Transformed" "BH To Human"
 riposte_skill: .id "beasthunter_riposte" .level 0 .type "melee" .atk 90% .dmg -40% .crit 0% .launch 1234 .target 1234 .effect
 
 // Thinning
@@ -44,11 +44,11 @@ combat_skill: .id "BH_aim_and_fire" .level 4 .type "ranged" .atk 110% .dmg 0% .c
 
 // Domination
 
-combat_skill: .id "BH_domination" .level 0 .type "ranged" .atk 90% .dmg -25% .crit 9% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 1"
-combat_skill: .id "BH_domination" .level 1 .type "ranged" .atk 95% .dmg -25% .crit 10% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 2"
-combat_skill: .id "BH_domination" .level 2 .type "ranged" .atk 100% .dmg -25% .crit 11% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 3"
-combat_skill: .id "BH_domination" .level 3 .type "ranged" .atk 105% .dmg -25% .crit 12% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 4"
-combat_skill: .id "BH_domination" .level 4 .type "ranged" .atk 110% .dmg -25% .crit 13% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 5"
+combat_skill: .id "BH_domination" .level 0 .type "melee" .atk 85% .dmg -25% .crit 9% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 1"
+combat_skill: .id "BH_domination" .level 1 .type "melee" .atk 90% .dmg -25% .crit 10% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 2"
+combat_skill: .id "BH_domination" .level 2 .type "melee" .atk 95% .dmg -25% .crit 11% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 3"
+combat_skill: .id "BH_domination" .level 3 .type "melee" .atk 100% .dmg -25% .crit 12% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 4"
+combat_skill: .id "BH_domination" .level 4 .type "melee" .atk 105% .dmg -25% .crit 13% .launch 4321 .target 123 .valid_modes BH_human .effect "Stun 5"
 
 // Reload
 
@@ -60,13 +60,13 @@ combat_skill: .id "BH_reload" .level 4 .type "" .launch 4321 .target .move 3 0 .
 
 // One Man Army
 
-combat_skill: .id "BH_oneman" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 8% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3A" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 1" "BH Oneman TT 1"
-combat_skill: .id "BH_oneman" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 9% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3B" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 2" "BH Oneman TT 2"
-combat_skill: .id "BH_oneman" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 10% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3C" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 3" "BH Oneman TT 3"
-combat_skill: .id "BH_oneman" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 11% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3D" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 4" "BH Oneman TT 4"
-combat_skill: .id "BH_oneman" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 12% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3E" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 5" "BH Oneman TT 5"
+combat_skill: .id "BH_oneman" .level 0 .type "ranged" .atk 90% .dmg -50% .crit 8% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3A" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 1" "BH Oneman TT"
+combat_skill: .id "BH_oneman" .level 1 .type "ranged" .atk 95% .dmg -50% .crit 9% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3B" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 2" "BH Oneman TT"
+combat_skill: .id "BH_oneman" .level 2 .type "ranged" .atk 100% .dmg -50% .crit 10% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3C" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 3" "BH Oneman TT"
+combat_skill: .id "BH_oneman" .level 3 .type "ranged" .atk 105% .dmg -50% .crit 11% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3D" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 4" "BH Oneman TT"
+combat_skill: .id "BH_oneman" .level 4 .type "ranged" .atk 110% .dmg -50% .crit 12% .launch 21 .target 1234 .ignore_stealth true .valid_modes BH_transformed .effect "Pull 3E" "Destealth" "BH Oneman Mark Self" "Mark Target" "BH Transformed Self Harm 5" "BH Oneman TT"
 
-// Domination
+// Coup de Melee
 
 combat_skill: .id "BH_coup" .level 0 .type "melee" .atk 90% .dmg 0% .crit 7% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 1"
 combat_skill: .id "BH_coup" .level 1 .type "melee" .atk 95% .dmg 0% .crit 8% .launch 21 .target 123 .valid_modes BH_transformed .effect "BH Domination vsMarked DMG Buff" "BH Transformed Self Harm 2"
@@ -83,7 +83,7 @@ combat_skill: .id "BH_will" .level 3 .type "" .launch 4321 .target @4321 .heal 4
 combat_skill: .id "BH_will" .level 4 .type "" .launch 4321 .target @4321 .heal 4 6 .self_target_valid false .valid_modes BH_transformed .is_stall_invalidating false .effect "Clear Guard Performer" "Clear Guard Target" "BH Will Guard" "BH Will Cure Debuff"
 
 mode: .id BH_human .is_raid_default true
-mode: .id BH_transformed .battle_complete_combat_skill_id BH_thinning
+mode: .id BH_transformed .battle_complete_combat_skill_id move
 
 tag: .id "light"
 tag: .id "non-religious"

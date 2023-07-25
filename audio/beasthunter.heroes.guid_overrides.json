@@ -1,0 +1,26 @@
+{
+    "event_guid_overrides":
+    [
+		{"event_id": "event:/char/ally/beasthunter_beasthunter_riposte_BH_human",                   "guid_override":"{d761f604-6bc7-4045-bcc9-f3eb311de0dd}"},
+		{"event_id": "event:/char/ally/beasthunter_beasthunter_riposte_BH_transformed",                   "guid_override":"{d761f604-6bc7-4045-bcc9-f3eb311de0dd}"},
+		{"event_id": "event:/char/ally/beasthunter_beasthunter_riposte_miss_BH_human",                   "guid_override":"{a6ca6467-eaf3-408e-84c3-14e231b516bb}"},
+		{"event_id": "event:/char/ally/beasthunter_beasthunter_riposte_miss_BH_transformed",                   "guid_override":"{a6ca6467-eaf3-408e-84c3-14e231b516bb}"},
+		
+		{"event_id": "event:/char/ally/beasthunter_BH_thinning_BH_human",                   "guid_override":"{0401028f-a851-4fcd-b37a-db78c2a14876}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_thinning_BH_transformed",                   "guid_override":"{0401028f-a851-4fcd-b37a-db78c2a14876}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_aim_and_fire_BH_human",                   "guid_override":"{dff76bfb-40b0-4b56-9a34-6c1f62f59849}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_aim_and_fire_miss_BH_human",                   "guid_override":"{bed4d898-7eac-4b1a-a166-4294b70aaf37}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_reload_BH_human",                   "guid_override":"{dc216ceb-9ddf-440e-9168-f0d3fd53a869}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_oneman_BH_transformed",                   "guid_override":"{c1aae35e-5428-4300-96e8-8d867ff77923}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_oneman_miss_BH_transformed",                   "guid_override":"{e2611827-2861-4dc6-acbb-102c9b8c0e35}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_coup_BH_transformed",                   "guid_override":"{a24d64a9-90ef-4070-881f-13269318cd9a}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_coup_miss_BH_transformed",                   "guid_override":"{4d5c9a60-db17-4804-9a79-c6b34759f966}"},
+		{"event_id": "event:/char/ally/beasthunter_BH_will_BH_transformed",                   "guid_override":"{6d7ceb12-1321-43a7-b91b-b996415a6058}"},
+
+		{"event_id": "event:/camp/skill/BH_proofing_fire",                   "guid_override":"{4730d924-02a8-42b6-b0cc-ba2976e6a804}"},
+		{"event_id": "event:/camp/skill/BH_collect_trace",                   "guid_override":"{b5f145ea-35e6-480e-9581-5bc9cb86ed2e}"},
+		{"event_id": "event:/camp/skill/BH_spirit_shot",                   "guid_override":"{5b6e60bb-2d55-4f7b-ad1b-4da14c35312d}"},
+		{"event_id": "event:/camp/skill/BH_throwaway",                   "guid_override":"{1c38504c-d80d-4384-9c34-6c4203f574d8}"}
+
+	]
+}

@@ -17,10 +17,10 @@ combat_skill: .id "BH_aim_and_fire" .icon "two" .anim "aimandfire"
 combat_skill: .id "BH_domination" .icon "three" .anim "domination"
 combat_skill: .id "BH_reload" .icon "four" .anim "reload"
 combat_skill: .id "BH_oneman" .icon "five" .anim "onemanarmy" .condensed_tooltip_stats true .condensed_tooltip_effects true
-combat_skill: .id "BH_coup" .icon "six" .anim "coup" .fx "coup_fx"
+combat_skill: .id "BH_coup" .icon "six" .anim "coup" .fx "coup_fx" .area_pos_offset 0 30 .target_area_pos_offset 0 30
 combat_skill: .id "BH_will" .icon "seven" .anim "will"
 
-combat_move_skill: .id "move" .icon "generic_move" .anim "idle"
+combat_move_skill: .id "move" .icon "generic_move" .anim "thinning_end"
 riposte_skill: .id "beasthunter_riposte" .anim "" .targchestfx "blood_splatter"
 
 act_out_display: .attack_friendly_anim "domination" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx ""
