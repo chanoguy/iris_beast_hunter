@@ -1,4 +1,343 @@
 {
    "buffs":
-   []
+   [
+      {
+         "id" : "BH_TT_Cleaner",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_TT_Cleaner",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Oneman DMGRECV Buff",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "BH_oneman"
+         }
+      },
+      {
+         "id" : "BH Coup DMGRECV Buff",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "skill",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "BH_coup"
+         }
+      },
+      {
+         "id" : "BH Riposte DMGL Buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Riposte DMGH Buff",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "riposte",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Debuff Skill Debuff",
+         "stat_type" : "debuff_chance",
+         "stat_sub_type" : "",
+         "amount" : -0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Marked Stress Buff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "BH Marked PROT Buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+      {
+         "id" : "BH AWR Stress Buff",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Flat Healing Buff",
+         "stat_type" : "hp_heal_amount",
+         "stat_sub_type" : "",
+         "amount" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Guard Duration Buff",
+         "stat_type" : "guard_duration_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH PROT while Guarding Buff",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.2,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_guarding",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH DMGL-15",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH DMGH-15",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Bleed Skill Buff",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Bleed Amount Buff",
+         "stat_type" : "hp_dot_bleed_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH STRESSDMG15",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH HPHEALRECEIVED40",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Transformed Reflection Buff",
+         "stat_type" : "damage_reflect_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.75,
+         "remove_if_not_active" : false,
+         "rule_type" : "in_mode",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "BH_transformed"
+         }
+      },
+      {
+         "id" : "BH DMGL-50",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH DMGH-50",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.50,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH DMGH25 vsBeast",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+      {
+         "id" : "BH DMGL25 vsBeast",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "remove_if_not_active" : false,
+         "rule_type" : "monsterType",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "beast"
+         }
+      },
+      {
+         "id" : "BH Ship DMGRECV Debuff",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.08,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Set ACC",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.07,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH Set Virtue Chance",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
 }

@@ -93,19 +93,6 @@
          }
       },
       {
-         "id" : "BH_Thinning_TT_4",
-         "stat_type" : "upgrade_discount",
-         "stat_sub_type" : "BH_Thinning_TT_4",
-         "amount" : 1,
-         "remove_if_not_active" : false,
-         "rule_type" : "always",
-         "is_false_rule" : false,
-         "rule_data" : {
-            "float" : 0,
-            "string" : ""
-         }
-      },
-      {
          "id" : "BH_Reload_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "BH_Reload_TT",
@@ -201,6 +188,435 @@
          "id" : "BH_Oneman_TT",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "BH_Oneman_TT",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Oneman_TT_SelfDMG_1",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Oneman_TT_SelfDMG",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Oneman_TT_SelfDMG_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Oneman_TT_SelfDMG",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Oneman_TT_SelfDMG_3",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Oneman_TT_SelfDMG",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Oneman_TT_SelfDMG_4",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Oneman_TT_SelfDMG",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Oneman_TT_SelfDMG_5",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Oneman_TT_SelfDMG",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_SelfDMG_1",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Coup_TT_SelfDMG",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_SelfDMG_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Coup_TT_SelfDMG",
+         "amount" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_SelfDMG_3",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Coup_TT_SelfDMG",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_SelfDMG_4",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Coup_TT_SelfDMG",
+         "amount" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_SelfDMG_5",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "BH_Coup_TT_SelfDMG",
+         "amount" : 5,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_2_lv1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_2_lv1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_2_lv2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_2_lv2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_2_lv3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_2_lv3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_2_lv4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_2_lv4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_2_lv5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_2_lv5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_3_lv1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_3_lv1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_3_lv2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_3_lv2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_3_lv3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_3_lv3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_3_lv4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_3_lv4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_TT_3_lv5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_TT_3_lv5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_1_lv1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_1_lv1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_1_lv2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_1_lv2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_1_lv3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_1_lv3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_1_lv4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_1_lv4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_1_lv5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_1_lv5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_2_lv1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_2_lv1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_2_lv2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_2_lv2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_2_lv3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_2_lv3",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_2_lv4",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_2_lv4",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_Coup_Riposte_Buff_TT_2_lv5",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Coup_Riposte_Buff_TT_2_lv5",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_uncommon1_TT_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_uncommon1_TT_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "BH_uncommon1_TT_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_uncommon1_TT_2",
          "amount" : 1,
          "remove_if_not_active" : false,
          "rule_type" : "always",

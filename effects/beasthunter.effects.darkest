@@ -4,11 +4,17 @@
 // Skill effects
 //-----------------------------
 
-effect: .name "BH Transformed Self Harm 1" .target "performer" .health_damage 3 .on_hit true .on_miss true .apply_once true
-effect: .name "BH Transformed Self Harm 2" .target "performer" .health_damage 3 .on_hit true .on_miss true .apply_once true
-effect: .name "BH Transformed Self Harm 3" .target "performer" .health_damage 4 .on_hit true .on_miss true .apply_once true
-effect: .name "BH Transformed Self Harm 4" .target "performer" .health_damage 4 .on_hit true .on_miss true .apply_once true
-effect: .name "BH Transformed Self Harm 5" .target "performer" .health_damage 5 .on_hit true .on_miss true .apply_once true
+effect: .name "BH Riposte Debuff Target 1" .target "target" .chance 100% .duration 3 .combat_stat_buff 1 .attack_rating_add -10% .crit_chance_add -6% .on_hit true .on_miss false
+effect: .name "BH Riposte Debuff Target 2" .target "target" .chance 110% .duration 3 .combat_stat_buff 1 .attack_rating_add -11% .crit_chance_add -7% .on_hit true .on_miss false
+effect: .name "BH Riposte Debuff Target 3" .target "target" .chance 120% .duration 3 .combat_stat_buff 1 .attack_rating_add -12% .crit_chance_add -8% .on_hit true .on_miss false
+effect: .name "BH Riposte Debuff Target 4" .target "target" .chance 130% .duration 3 .combat_stat_buff 1 .attack_rating_add -13% .crit_chance_add -9% .on_hit true .on_miss false
+effect: .name "BH Riposte Debuff Target 5" .target "target" .chance 140% .duration 3 .combat_stat_buff 1 .attack_rating_add -14% .crit_chance_add -10% .on_hit true .on_miss false
+
+effect: .name "BH Transformed Self Harm 1" .target "performer" .health_damage 3 .on_hit true .on_miss true .has_description false
+effect: .name "BH Transformed Self Harm 2" .target "performer" .health_damage 3 .on_hit true .on_miss true .has_description false
+effect: .name "BH Transformed Self Harm 3" .target "performer" .health_damage 4 .on_hit true .on_miss true .has_description false
+effect: .name "BH Transformed Self Harm 4" .target "performer" .health_damage 4 .on_hit true .on_miss true .has_description false
+effect: .name "BH Transformed Self Harm 5" .target "performer" .health_damage 5 .on_hit true .on_miss true .has_description false
 
 // Thinning
 effect: .name "BH To Transformed" .target "performer" .set_mode BH_transformed .on_hit true .on_miss true .has_description false
@@ -21,8 +27,8 @@ effect: .name "BH Thinning Resistance Buff 3" .target "performer" .duration 1 .b
 effect: .name "BH Thinning Resistance Buff 4" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 4" "BH Thinning Moveres Buff 4" "BH Thinning Bleedres Buff 4" "BH Thinning Blightres Buff 4" "BH Thinning Diseaseres Buff 4" "BH Thinning Debuffres Buff 4" .on_hit true .on_miss true .buff_source_type bsrc_stun
 effect: .name "BH Thinning Resistance Buff 5" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 5" "BH Thinning Moveres Buff 5" "BH Thinning Bleedres Buff 5" "BH Thinning Blightres Buff 5" "BH Thinning Diseaseres Buff 5" "BH Thinning Debuffres Buff 5" .on_hit true .on_miss true .buff_source_type bsrc_stun
 effect: .name "BH Thinning Other Buffs" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning MAXHP Buff" "BH Thinning SPD Debuff" .on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "BH Thinning Backward" .target "performer" .push 2 .chance 500% .on_hit true .on_miss true .can_apply_on_death true .apply_with_result true .has_description false
-effect: .name "BH Thinning Clean Buffs" .target "performer" .steal_buff_source_type bsrc_stun .on_hit true .on_miss true .has_description false
+effect: .name "BH Thinning Cure Heal" .target "target" .cure 1 .heal_percent 0.34 .on_hit true .on_miss true
+effect: .name "BH Thinning Unmark" .target "performer" .untag 1 .on_hit true .on_miss true .has_description false
 effect: .name "BH Thinning TT 1" .target "performer" .skill_instant true .buff_ids "BH_Thinning_TT_1" .on_hit true .on_miss true
 effect: .name "BH Thinning TT 2 lv1" .target "performer" .buff_ids "BH_Thinning_TT_2_lv1" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
 effect: .name "BH Thinning TT 2 lv2" .target "performer" .buff_ids "BH_Thinning_TT_2_lv2" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
@@ -30,7 +36,7 @@ effect: .name "BH Thinning TT 2 lv3" .target "performer" .buff_ids "BH_Thinning_
 effect: .name "BH Thinning TT 2 lv4" .target "performer" .buff_ids "BH_Thinning_TT_2_lv4" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
 effect: .name "BH Thinning TT 2 lv5" .target "performer" .buff_ids "BH_Thinning_TT_2_lv5" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
 effect: .name "BH Thinning TT 3" .target "performer" .skill_instant true .buff_ids "BH_Thinning_TT_3" .on_hit true .on_miss true
-effect: .name "BH Thinning TT 4" .target "performer" .skill_instant true .buff_ids "BH_Thinning_TT_4" .on_hit true .on_miss true
+effect: .name "BH Thinning Initiative Minus" .target "performer" .initiative_change -1 .on_hit true .on_miss true
 
 // Aim and Fire
 effect: .name "BH Aim vsMarked DMG Buff" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 75% .damage_high_multiply 75% .on_hit true .on_miss false
@@ -51,9 +57,53 @@ effect: .name "beasthunter_reload_summon" .target "performer" .summon_can_spawn_
 // One Man Army
 effect: .name "BH Oneman Mark Self" .target "performer" .tag 1 .duration 3 .on_hit true .on_miss true .has_description false
 effect: .name "BH Oneman TT" .target "performer" .skill_instant true .buff_ids "BH_Oneman_TT" .on_hit true .on_miss true
+effect: .name "BH Oneman TT SelfDMG 1" .target "performer" .skill_instant true .buff_ids "BH_Oneman_TT_SelfDMG_1" .on_hit true .on_miss true
+effect: .name "BH Oneman TT SelfDMG 2" .target "performer" .skill_instant true .buff_ids "BH_Oneman_TT_SelfDMG_2" .on_hit true .on_miss true
+effect: .name "BH Oneman TT SelfDMG 3" .target "performer" .skill_instant true .buff_ids "BH_Oneman_TT_SelfDMG_3" .on_hit true .on_miss true
+effect: .name "BH Oneman TT SelfDMG 4" .target "performer" .skill_instant true .buff_ids "BH_Oneman_TT_SelfDMG_4" .on_hit true .on_miss true
+effect: .name "BH Oneman TT SelfDMG 5" .target "performer" .skill_instant true .buff_ids "BH_Oneman_TT_SelfDMG_5" .on_hit true .on_miss true
 
 // Coup de Melee
-effect: .name "BH Domination vsMarked DMG Buff" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50% .damage_high_multiply 50% .on_hit true .on_miss false
+effect: .name "BH Coup Transformed Self Harm 1" .target "performer" .health_damage 3 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "BH Coup Transformed Self Harm 2" .target "performer" .health_damage 3 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "BH Coup Transformed Self Harm 3" .target "performer" .health_damage 4 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "BH Coup Transformed Self Harm 4" .target "performer" .health_damage 4 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "BH Coup Transformed Self Harm 5" .target "performer" .health_damage 5 .on_hit true .on_miss true .apply_once true .has_description false
+effect: .name "BH Coup Riposte 1" .target "performer" .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .riposte_effect "BH Riposte Debuff Target 1" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte 2" .target "performer" .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .riposte_effect "BH Riposte Debuff Target 2" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte 3" .target "performer" .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .riposte_effect "BH Riposte Debuff Target 3" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte 4" .target "performer" .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .riposte_effect "BH Riposte Debuff Target 4" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte 5" .target "performer" .duration 3 .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .riposte_effect "BH Riposte Debuff Target 5" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff 2" .target "performer" .duration 3 .buff_ids "BH Coup Riposte ACC 2" "BH Coup Riposte CRIT 2" .on_hit true .on_miss true .has_description false .buff_source_type bsrc_riposte
+effect: .name "BH Coup Riposte Buff 3" .target "performer" .duration 3 .buff_ids "BH Coup Riposte ACC 3" "BH Coup Riposte CRIT 3" .on_hit true .on_miss true .has_description false .buff_source_type bsrc_riposte
+effect: .name "BH Coup Riposte Buff 4" .target "performer" .duration 3 .buff_ids "BH Coup Riposte ACC 4" "BH Coup Riposte CRIT 4" .on_hit true .on_miss true .has_description false .buff_source_type bsrc_riposte
+effect: .name "BH Coup Riposte Buff 5" .target "performer" .duration 3 .buff_ids "BH Coup Riposte ACC 5" "BH Coup Riposte CRIT 5" .on_hit true .on_miss true .has_description false .buff_source_type bsrc_riposte
+effect: .name "BH Coup TT SelfDMG 1" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_SelfDMG_1" .on_hit true .on_miss true
+effect: .name "BH Coup TT SelfDMG 2" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_SelfDMG_2" .on_hit true .on_miss true
+effect: .name "BH Coup TT SelfDMG 3" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_SelfDMG_3" .on_hit true .on_miss true
+effect: .name "BH Coup TT SelfDMG 4" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_SelfDMG_4" .on_hit true .on_miss true
+effect: .name "BH Coup TT SelfDMG 5" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_SelfDMG_5" .on_hit true .on_miss true
+effect: .name "BH Coup TT 1" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_1" .on_hit true .on_miss true
+effect: .name "BH Coup TT 2 lv1" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_2_lv1" .on_hit true .on_miss true
+effect: .name "BH Coup TT 2 lv2" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_2_lv2" .on_hit true .on_miss true
+effect: .name "BH Coup TT 2 lv3" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_2_lv3" .on_hit true .on_miss true
+effect: .name "BH Coup TT 2 lv4" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_2_lv4" .on_hit true .on_miss true
+effect: .name "BH Coup TT 2 lv5" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_2_lv5" .on_hit true .on_miss true
+effect: .name "BH Coup TT 3 lv1" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_3_lv1" .on_hit true .on_miss true
+effect: .name "BH Coup TT 3 lv2" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_3_lv2" .on_hit true .on_miss true
+effect: .name "BH Coup TT 3 lv3" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_3_lv3" .on_hit true .on_miss true
+effect: .name "BH Coup TT 3 lv4" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_3_lv4" .on_hit true .on_miss true
+effect: .name "BH Coup TT 3 lv5" .target "performer" .skill_instant true .buff_ids "BH_Coup_TT_3_lv5" .on_hit true .on_miss true
+effect: .name "BH Coup Riposte Buff TT 1 lv1" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_1_lv1" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 1 lv2" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_1_lv2" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 1 lv3" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_1_lv3" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 1 lv4" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_1_lv4" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 1 lv5" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_1_lv5" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 2 lv1" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_2_lv1" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 2 lv2" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_2_lv2" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 2 lv3" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_2_lv3" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 2 lv4" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_2_lv4" .on_hit true .on_miss true .has_description false
+effect: .name "BH Coup Riposte Buff TT 2 lv5" .target "performer" .duration 3 .riposte 1 .buff_ids "BH_Coup_Riposte_Buff_TT_2_lv5" .on_hit true .on_miss true .has_description false
 
 // Will to Live
 effect: .name "BH Will Guard" .target "target" .guard 1 .on_hit true .on_miss true .duration 3
@@ -61,6 +111,13 @@ effect: .name "BH Will Cure Debuff" .target "target" .clear_debuff 1 .on_hit tru
 
 // Trinket Effects
 //-----------------------------
+
+effect: .name "BH Clear Guard PG" .target "performer_group" .clearguarding 1 .clearguarded 1 .on_hit true .on_miss true .has_description false
+effect: .name "BH Guard PGO" .target "performer_group_other" .guard 1 .on_hit true .on_miss true .duration 3 .has_description false
+effect: .name "BH Target Restoration" .target "target" .dotHpHeal 2 .duration 3	.on_hit true .on_miss false .has_description false
+effect: .name "BH AWR Stress Buff" .target "performer" .duration 3 .buff_ids "BH AWR Stress Buff" .on_hit true .on_miss false .apply_with_result true
+effect: .name "BH Party CRIT buff" .target "performer_group" .duration 3 .combat_stat_buff 1 .crit_chance_add 6% .on_hit true .on_miss true
+effect: .name "BH TG DMGRECV Debuff" .target "target_group" .duration 3 .chance 140% .buff_ids "BH Ship DMGRECV Debuff" .on_hit true .on_miss false
 
 // Overstress Effects
 //-----------------------------

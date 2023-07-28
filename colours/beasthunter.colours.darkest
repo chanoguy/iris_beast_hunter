@@ -1,1 +1,2 @@
 colour: .id "beasthunter_friendly_target" .rgba 115 201 73 255
+colour: .id "beasthunter_invisible"             .rgba 0 0 0 0

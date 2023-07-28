@@ -1,4 +1,186 @@
 {
    "entries":
-   []
+   [
+      {
+         "id" : "beasthunter_common",
+         "buffs" : 
+         [	
+            "SPD1",
+            "ACC5"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "rarity" : "common",
+         "price" : 7500,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "beasthunter_uncommon1",
+         "buffs" : 
+         [	
+            "MAXHP20",
+            "BH_uncommon1_TT_1",
+            "BH_uncommon1_TT_2",
+            "BH_TT_Cleaner"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects":
+         [
+            "BH Clear Guard PG",
+            "BH Guard PGO"
+         ],
+         "was_hit_additional_effects":
+         [
+            "BH Target Restoration"
+         ]
+      },
+      {
+         "id" : "beasthunter_uncommon2",
+         "buffs" : 
+         [	
+            "STUNSKILL15",
+            "MOVESKILL15",
+            "DEBUFFSKILL20",
+            "DEF-5"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "beasthunter_rare",
+         "buffs" : 
+         [	
+            "BH Oneman DMGRECV Buff",
+            "BH Coup DMGRECV Buff",
+            "BH Riposte DMGL Buff",
+            "BH Riposte DMGH Buff",
+            "BH Debuff Skill Debuff"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "rarity" : "rare",
+         "price" : 15000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "beasthunter_very_rare",
+         "buffs" : 
+         [	
+            "BH Marked Stress Buff",
+            "BH Marked PROT Buff"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "was_hit_additional_effects":
+         [
+            "BH AWR Stress Buff"
+         ]
+      },
+      {
+         "id" : "beasthunter_CC1",
+         "buffs" : 
+         [	
+            "BH Flat Healing Buff",
+            "BH Guard Duration Buff",
+            "BH PROT while Guarding Buff",
+            "BH DMGL-15",
+            "BH DMGH-15"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "set_id" : "beasthunter_CC",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "beasthunter_CC2",
+         "buffs" : 
+         [	
+            "BH Bleed Skill Buff",
+            "BH Bleed Amount Buff",
+            "BH STRESSDMG15"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "set_id" : "beasthunter_CC",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "beasthunter_CoM",
+         "buffs" : 
+         [	
+            "BH HPHEALRECEIVED40",
+            "BH Transformed Reflection Buff",
+            "BH Bleed Amount Buff",
+            "BH DMGH-50",
+            "BH DMGL-50"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "rarity" : "comet",
+         "shard" : 35,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "beasthunter_ship",
+         "buffs" : 
+         [	
+            "BH DMGH25 vsBeast",
+            "BH DMGL25 vsBeast"
+         ],
+         "hero_class_requirements":
+         [
+            "beasthunter"
+         ],
+         "rarity": "sakura",
+		   "price": 30000,
+		   "limit": 1,
+		   "origin_dungeon": "ship",
+         "friendly_skill_additional_effects": 
+         [ 
+            "BH Party CRIT buff"
+         ],
+         "attack_skill_additional_effects": 
+         [ 
+            "BH TG DMGRECV Debuff"
+         ]
+      }
+   ]
 }

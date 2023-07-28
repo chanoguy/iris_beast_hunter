@@ -1,4 +1,13 @@
 {
    "sets":
-   []
+   [
+      {
+         "id" : "beasthunter_CC",
+         "buffs" : 
+         [
+            "BH Set ACC",
+            "BH Set Virtue Chance"
+         ]
+      }
+   ]
 }

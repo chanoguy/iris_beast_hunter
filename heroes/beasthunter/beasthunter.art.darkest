@@ -21,6 +21,6 @@ combat_skill: .id "BH_coup" .icon "six" .anim "coup" .fx "coup_fx" .area_pos_off
 combat_skill: .id "BH_will" .icon "seven" .anim "will"
 
 combat_move_skill: .id "move" .icon "generic_move" .anim "thinning_end"
-riposte_skill: .id "beasthunter_riposte" .anim "" .targchestfx "blood_splatter"
+riposte_skill: .id "beasthunter_riposte" .anim "riposte" .targchestfx "blood_splatter"
 
 act_out_display: .attack_friendly_anim "domination" .attack_friendly_targchestfx "blood_splatter" .attack_friendly_sfx ""

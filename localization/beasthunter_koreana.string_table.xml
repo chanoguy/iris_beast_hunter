@@ -53,24 +53,73 @@ Will to Live]]></entry>
     
 	<!-- Trinkets -->
 
+	<entry id="str_inventory_title_trinketbeasthunter_common"><![CDATA[Flintstone]]></entry>
+	<entry id="str_inventory_title_trinketbeasthunter_uncommon1"><![CDATA[Spreading Roots of Corruption]]></entry>
+	<entry id="str_inventory_title_trinketbeasthunter_uncommon2"><![CDATA[Tiger Skin Belt]]></entry>
+	<entry id="str_inventory_title_trinketbeasthunter_rare"><![CDATA[A Loop of Beast Teeth]]></entry>
+	<entry id="str_inventory_title_trinketbeasthunter_very_rare"><![CDATA[Translated Bible]]></entry>
+	<entry id="str_inventory_title_trinketbeasthunter_CC1"><![CDATA[Transcribed Phytology Textbook]]></entry>
+	<entry id="str_inventory_title_trinketbeasthunter_CC2"><![CDATA[Bloodied Bullet]]></entry>
+	<entry id="str_inventory_title_trinketbeasthunter_CoM"><![CDATA[Mirror of Strange Outline]]></entry>
+	<entry id="str_inventory_title_trinketbeasthunter_ship"><![CDATA[Tiger Bone Essence]]></entry>
+	<entry id="str_inventory_set_title_beasthunter_CC"><![CDATA[TBD]]></entry>
+
 	<!-- Tooltips-->
 
-	<entry id="effect_tooltip_cure_debuff"><![CDATA[Cure {colour_start|debuff}Debuffs{colour_end}]]></entry>	
+	<entry id="effect_tooltip_cure_debuff"><![CDATA[Cure {colour_start|debuff}Debuffs{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_ambush_chance"><![CDATA[%+d%% Nighttime Ambush chance]]></entry>
+	<entry id="trinket_attack_skill_additional_effects_hit_miss"><![CDATA[On Attack:]]></entry>
+    <entry id="trinket_attack_skill_additional_effects_hit"><![CDATA[On Attack Hit:]]></entry>
+	<entry id="trinket_was_hit_additional_effects"><![CDATA[On Hero Being Hit:]]></entry>
+    <entry id="trinket_friendly_skill_additional_effects"><![CDATA[On Friendly Skill:]]></entry>
+	<entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} Amount]]></entry>
+	<entry id="buff_stat_tooltip_guard_duration_percent"><![CDATA[%+d%% {colour_start|guard}Guard{colour_end} Duration]]></entry>
+    <entry id="buff_rule_tooltip_is_guarding"><![CDATA[%s when Guarding]]></entry>
+	<entry id="buff_stat_tooltip_damage_reflect_percent"><![CDATA[%d%% Damage Reflection]]></entry>
 
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_TT_Cleaner"><![CDATA[{colour_start|beasthunter_invisible}​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{colour_end}]]></entry>
+	<entry id="buff_rule_data_tooltip_BH_oneman"><![CDATA[One Man Army]]></entry>
+	<entry id="buff_rule_data_tooltip_BH_coup"><![CDATA[Coup de Melee]]></entry>
+	<entry id="buff_rule_data_tooltip_BH_transformed"><![CDATA[Transformed]]></entry>
     <entry id="str_skill_mode_info_BH_human"><![CDATA[
-{colour_start|notable}Before Transformation:{colour_end}]]></entry>
+{colour_start|notable}Before Transformation:
+Free Action{colour_end}]]></entry>
     <entry id="str_skill_mode_info_BH_transformed"><![CDATA[
 {colour_start|notable}After Transformation:{colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_1"><![CDATA[Unleash the Sprouts
 {colour_start|mark}Mark{colour_end} Self]]></entry>
 	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_BH_Thinning_TT_2"><![CDATA[%+d%% {colour_start|notable}ALL{colour_end} Resists]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_3"><![CDATA[Tame the Sprouts]]></entry>
-	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_4"><![CDATA[Clear {colour_start|buff}Buffs{colour_end} from Thinning]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_3"><![CDATA[Clear {colour_start|mark}Mark{colour_end} on Self]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_BH_Reload_TT"><![CDATA[Acts Last in Current Round]]></entry>
 	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_BH_Reload_Aim_DMGL"><![CDATA[Aim and Fire: %+d%% Min DMG]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_BH_Reload_Loot_TT"><![CDATA[On Next Kill: Gain a {colour_start|notable}Game{colour_end} Loot {colour_start|skill_unselectable}(Once per Combat){colour_end}]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_BH_Oneman_TT"><![CDATA[{colour_start|mark}Mark{colour_end} Self]]></entry>
-	
+	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_BH_Oneman_TT_SelfDMG"><![CDATA[Suffer %d DMG]]></entry>
+	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_BH_Coup_TT_SelfDMG"><![CDATA[Suffer %d DMG]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_1"><![CDATA[Activates {colour_start|riposte}Riposte{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_2_lv1"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 90 / DMG mod -40%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_2_lv2"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 95 / DMG mod -40%% / CRIT +1%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_2_lv3"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 100 / DMG mod -40%% / CRIT +2%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_2_lv4"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 105 / DMG mod -40%% / CRIT +3%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_2_lv5"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 110 / DMG mod -40%% / CRIT +4%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_3_lv1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -10 / CRIT -6%% {colour_start|skill_unselectable}(100%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_3_lv2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -11 / CRIT -7%% {colour_start|skill_unselectable}(110%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_3_lv3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -12 / CRIT -8%% {colour_start|skill_unselectable}(120%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_3_lv4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -13 / CRIT -9%% {colour_start|skill_unselectable}(130%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_TT_3_lv5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -14 / CRIT -10%% {colour_start|skill_unselectable}(140%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_1_lv1"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 90 / DMG mod -40%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_1_lv2"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 95 / DMG mod -40%% / CRIT +1%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_1_lv3"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 100 / DMG mod -40%% / CRIT +2%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_1_lv4"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 105 / DMG mod -40%% / CRIT +3%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_1_lv5"><![CDATA[{colour_start|riposte}Riposte:{colour_end} ACC 110 / DMG mod -40%% / CRIT +4%%]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_2_lv1"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -10 / CRIT -6%% {colour_start|skill_unselectable}(100%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_2_lv2"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -11 / CRIT -7%% {colour_start|skill_unselectable}(110%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_2_lv3"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -12 / CRIT -8%% {colour_start|skill_unselectable}(120%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_2_lv4"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -13 / CRIT -9%% {colour_start|skill_unselectable}(130%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Coup_Riposte_Buff_TT_2_lv5"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end} ACC -14 / CRIT -10%% {colour_start|skill_unselectable}(140%% base, 2 rds){colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_uncommon1_TT_1"><![CDATA[On Attack: {colour_start|guard}Guard{colour_end} All Companions]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_uncommon1_TT_2"><![CDATA[On Hero Being Hit: Attacker: {colour_start|healhp}Restoration{colour_end} 2 pts, for 3 rds]]></entry>
+
 	<!-- Virtues and Afflictions -->
 
 	<!-- Other Barks -->
