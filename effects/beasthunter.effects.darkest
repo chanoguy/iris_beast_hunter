@@ -21,12 +21,12 @@ effect: .name "BH To Transformed" .target "performer" .set_mode BH_transformed .
 effect: .name "BH To Human" .target "performer" .set_mode BH_human .on_hit true .on_miss true .has_description false
 effect: .name "BH Thinning Mark Target" .target "performer" .tag 1 .duration 3 .on_hit true .on_miss true .has_description false
 effect: .name "BH Thinning Forward" .target "performer" .pull 2 .chance 500% .on_hit true .on_miss true .can_apply_on_death true .apply_with_result true .has_description false
-effect: .name "BH Thinning Resistance Buff 1" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 1" "BH Thinning Moveres Buff 1" "BH Thinning Bleedres Buff 1" "BH Thinning Blightres Buff 1" "BH Thinning Diseaseres Buff 1" "BH Thinning Debuffres Buff 1" .on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "BH Thinning Resistance Buff 2" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 2" "BH Thinning Moveres Buff 2" "BH Thinning Bleedres Buff 2" "BH Thinning Blightres Buff 2" "BH Thinning Diseaseres Buff 2" "BH Thinning Debuffres Buff 2" .on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "BH Thinning Resistance Buff 3" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 3" "BH Thinning Moveres Buff 3" "BH Thinning Bleedres Buff 3" "BH Thinning Blightres Buff 3" "BH Thinning Diseaseres Buff 3" "BH Thinning Debuffres Buff 3" .on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "BH Thinning Resistance Buff 4" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 4" "BH Thinning Moveres Buff 4" "BH Thinning Bleedres Buff 4" "BH Thinning Blightres Buff 4" "BH Thinning Diseaseres Buff 4" "BH Thinning Debuffres Buff 4" .on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "BH Thinning Resistance Buff 5" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 5" "BH Thinning Moveres Buff 5" "BH Thinning Bleedres Buff 5" "BH Thinning Blightres Buff 5" "BH Thinning Diseaseres Buff 5" "BH Thinning Debuffres Buff 5" .on_hit true .on_miss true .buff_source_type bsrc_stun
-effect: .name "BH Thinning Other Buffs" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning MAXHP Buff" "BH Thinning SPD Debuff" .on_hit true .on_miss true .buff_source_type bsrc_stun
+effect: .name "BH Thinning Resistance Buff 1" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 1" "BH Thinning Moveres Buff 1" "BH Thinning Bleedres Buff 1" "BH Thinning Blightres Buff 1" "BH Thinning Diseaseres Buff 1" "BH Thinning Debuffres Buff 1" .on_hit true .on_miss true
+effect: .name "BH Thinning Resistance Buff 2" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 2" "BH Thinning Moveres Buff 2" "BH Thinning Bleedres Buff 2" "BH Thinning Blightres Buff 2" "BH Thinning Diseaseres Buff 2" "BH Thinning Debuffres Buff 2" .on_hit true .on_miss true
+effect: .name "BH Thinning Resistance Buff 3" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 3" "BH Thinning Moveres Buff 3" "BH Thinning Bleedres Buff 3" "BH Thinning Blightres Buff 3" "BH Thinning Diseaseres Buff 3" "BH Thinning Debuffres Buff 3" .on_hit true .on_miss true
+effect: .name "BH Thinning Resistance Buff 4" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 4" "BH Thinning Moveres Buff 4" "BH Thinning Bleedres Buff 4" "BH Thinning Blightres Buff 4" "BH Thinning Diseaseres Buff 4" "BH Thinning Debuffres Buff 4" .on_hit true .on_miss true
+effect: .name "BH Thinning Resistance Buff 5" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning Stunres Buff 5" "BH Thinning Moveres Buff 5" "BH Thinning Bleedres Buff 5" "BH Thinning Blightres Buff 5" "BH Thinning Diseaseres Buff 5" "BH Thinning Debuffres Buff 5" .on_hit true .on_miss true
+effect: .name "BH Thinning Other Buffs" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning MAXHP Buff" "BH Thinning SPD Debuff" .on_hit true .on_miss true
 effect: .name "BH Thinning Cure Heal" .target "target" .cure 1 .heal_percent 0.34 .on_hit true .on_miss true
 effect: .name "BH Thinning Unmark" .target "performer" .untag 1 .on_hit true .on_miss true .has_description false
 effect: .name "BH Thinning TT 1" .target "performer" .skill_instant true .buff_ids "BH_Thinning_TT_1" .on_hit true .on_miss true
@@ -42,17 +42,18 @@ effect: .name "BH Thinning Initiative Minus" .target "performer" .initiative_cha
 effect: .name "BH Aim vsMarked DMG Buff" .target "performer" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 75% .damage_high_multiply 75% .on_hit true .on_miss false
 
 // Reload
-effect: .name "BH Reload SPD Debuff" .target "performer" .duration 1 .buff_duration_type after_round .combat_stat_buff 1 .speed_rating_add -99 .on_hit true .on_miss true .buff_source_type bsrc_notspecified .has_description false
+effect: .name "BH Reload SPD Debuff" .target "performer" .duration 1 .combat_stat_buff 1 .speed_rating_add -99 .on_hit true .on_miss true .buff_source_type bsrc_notspecified .has_description false
 effect: .name "BH Reload Initiative Plus" .target "performer" .initiative_change 1 .on_hit true .on_miss true
-effect: .name "BH Reload Aim DMGL Buff 1" .target "performer" .duration 1 .buff_duration_type after_round .buff_ids "BH Reload Aim DMGL 1" "BH Reload Aim DMGL TT 1" .on_hit true .on_miss true
-effect: .name "BH Reload Aim DMGL Buff 2" .target "performer" .duration 1 .buff_duration_type after_round .buff_ids "BH Reload Aim DMGL 2" "BH Reload Aim DMGL TT 2" .on_hit true .on_miss true
-effect: .name "BH Reload Aim DMGL Buff 3" .target "performer" .duration 1 .buff_duration_type after_round .buff_ids "BH Reload Aim DMGL 3" "BH Reload Aim DMGL TT 3" .on_hit true .on_miss true
-effect: .name "BH Reload Aim DMGL Buff 4" .target "performer" .duration 1 .buff_duration_type after_round .buff_ids "BH Reload Aim DMGL 4" "BH Reload Aim DMGL TT 4" .on_hit true .on_miss true
-effect: .name "BH Reload Aim DMGL Buff 5" .target "performer" .duration 1 .buff_duration_type after_round .buff_ids "BH Reload Aim DMGL 5" "BH Reload Aim DMGL TT 5" .on_hit true .on_miss true
+effect: .name "BH Reload Aim DMGL Buff 1" .target "performer" .duration 2 .buff_ids "BH Reload Aim DMGL 1" "BH Reload Aim DMGL TT 1" .on_hit true .on_miss true
+effect: .name "BH Reload Aim DMGL Buff 2" .target "performer" .duration 2 .buff_ids "BH Reload Aim DMGL 2" "BH Reload Aim DMGL TT 2" .on_hit true .on_miss true
+effect: .name "BH Reload Aim DMGL Buff 3" .target "performer" .duration 2 .buff_ids "BH Reload Aim DMGL 3" "BH Reload Aim DMGL TT 3" .on_hit true .on_miss true
+effect: .name "BH Reload Aim DMGL Buff 4" .target "performer" .duration 2 .buff_ids "BH Reload Aim DMGL 4" "BH Reload Aim DMGL TT 4" .on_hit true .on_miss true
+effect: .name "BH Reload Aim DMGL Buff 5" .target "performer" .duration 2 .buff_ids "BH Reload Aim DMGL 5" "BH Reload Aim DMGL TT 5" .on_hit true .on_miss true
 effect: .name "BH Reload TT" .target "performer" .skill_instant true .buff_ids "BH_Reload_TT" .on_hit true .on_miss true
 effect: .name "BH Reload Loot TT" .target "performer" .buff_ids "BH_Reload_Loot_TT" .duration -1 .on_hit true .on_miss true .buff_source_type bsrc_companion
 effect: .name "BH Reload Actordot" .target "performer" .actor_dot beasthunter_reload_AD .on_hit true .on_miss true
 effect: .name "beasthunter_reload_summon" .target "performer" .summon_can_spawn_loot true .summon_monsters chanwoo_A .summon_chances 1.0 .summon_count 1 .summon_ranks 01234 .on_hit true .on_miss true
+effect: .name "BH Steal bsrc companion" .target "performer" .steal_buff_source_type bsrc_companion .on_hit true .on_miss false
 
 // One Man Army
 effect: .name "BH Oneman Mark Self" .target "performer" .tag 1 .duration 3 .on_hit true .on_miss true .has_description false

@@ -12,7 +12,8 @@
                     [],
                     "increment_effects":
                     [
-                        "beasthunter_reload_summon"
+                        "beasthunter_reload_summon",
+                        "BH Steal bsrc companion"
                     ]
                 }
             ]
