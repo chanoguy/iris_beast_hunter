@@ -1,0 +1,2 @@
+str_inventory_description_supplybeasthunter_game_supply_1,beasthunter_english,koreana,
+str_inventory_title_supplybeasthunter_game_supply_1,beasthunter_english,koreana,

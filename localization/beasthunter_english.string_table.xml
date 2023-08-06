@@ -7,6 +7,11 @@
 	<entry id="action_verbose_body_guild_beasthunter"><![CDATA[His weapon is a musket he trusts, and a sharp dagger used to skin. One more thing is the manifestation of "sprouts" and he uses thinning to control the "sprouts" not to eat him. It manifests itself apart from his thoughts or his willingness to fight, and "sprouts" will help him not to die in hand-to-hand combat. The willingness to defend something while enduring sacrifice will drive "sprouts" out, for sure.]]></entry>
 	<entry id="action_verbose_body_camping_trainer_beasthunter"><![CDATA[He's a professional hunter. The patience to hide quietly and persevere until the prey appears, the momentary intuition for survival, and a unique body that can soothe his hunting tired body with a sip of alcohol. Of course, he tend to believe in superstitions to keep up with the good fortune.]]></entry>
 
+    <!-- town events -->
+
+	<entry id="town_event_title_beasthunter_first_recruit"><![CDATA[A Drunk Stranger]]></entry>
+	<entry id="town_event_description_beasthunter_first_recruit"><![CDATA[There's a stranger caught recently. His acting drunk is not the reason for imprisonment, but people suspecting him to be one of the brigands is. Execution is tomorrow, but you can save him if you hire him.]]></entry>
+
 	<!-- Hamlet Strings and Skills-->
 
 	<entry id="combat_skill_name_beasthunter_BH_thinning"><![CDATA[Thinning]]></entry>
@@ -51,7 +56,7 @@ Will to Live]]></entry>
 
     <!-- Party Combos -->
     
-	<!-- Trinkets -->
+	<!-- Trinkets and Items -->
 
 	<entry id="str_inventory_title_trinketbeasthunter_common"><![CDATA[Flintstone]]></entry>
 	<entry id="str_inventory_title_trinketbeasthunter_uncommon1"><![CDATA[Spreading Roots of Corruption]]></entry>
@@ -63,6 +68,10 @@ Will to Live]]></entry>
 	<entry id="str_inventory_title_trinketbeasthunter_CoM"><![CDATA[Mirror of Strange Outline]]></entry>
 	<entry id="str_inventory_title_trinketbeasthunter_ship"><![CDATA[Tiger Bone Essence]]></entry>
 	<entry id="str_inventory_set_title_beasthunter_CC"><![CDATA[TBD]]></entry>
+
+	<entry id="str_inventory_title_supplybeasthunter_game_supply_1"><![CDATA[Game Supply]]></entry>
+	<entry id="str_inventory_description_supplybeasthunter_game_supply_1"><![CDATA[Placeholder
+{colour_start|notable}[Value: 1,250 Gold Each]{colour_end}]]></entry>
 
 	<!-- Tooltips-->
 

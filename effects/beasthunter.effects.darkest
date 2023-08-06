@@ -120,5 +120,10 @@ effect: .name "BH AWR Stress Buff" .target "performer" .duration 3 .buff_ids "BH
 effect: .name "BH Party CRIT buff" .target "performer_group" .duration 3 .combat_stat_buff 1 .crit_chance_add 6% .on_hit true .on_miss true
 effect: .name "BH TG DMGRECV Debuff" .target "target_group" .duration 3 .chance 140% .buff_ids "BH Ship DMGRECV Debuff" .on_hit true .on_miss false
 
+// Item Effects
+//-----------------------------
+
+effect: .name "beasthunter_game_supply_1" .target "performer" .item 1 .duration 2 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss true
+
 // Overstress Effects
 //-----------------------------

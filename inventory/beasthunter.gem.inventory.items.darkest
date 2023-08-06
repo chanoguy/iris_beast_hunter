@@ -1,0 +1,1 @@
+inventory_item:	.type "supply" .id "beasthunter_game_supply_1" .base_stack_limit 4 .purchase_gold_value 1250 .sell_gold_value 1250

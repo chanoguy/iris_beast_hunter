@@ -7,6 +7,11 @@
 	<entry id="action_verbose_body_guild_beasthunter"><![CDATA[His weapon is a musket he trusts, and a sharp dagger used to skin. One more thing is the manifestation of "sprouts" and he uses thinning to control the "sprouts" not to eat him. It manifests itself apart from his thoughts or his willingness to fight, and "sprouts" will help him not to die in hand-to-hand combat. The willingness to defend something while enduring sacrifice will drive "sprouts" out, for sure.]]></entry>
 	<entry id="action_verbose_body_camping_trainer_beasthunter"><![CDATA[He's a professional hunter. The patience to hide quietly and persevere until the prey appears, the momentary intuition for survival, and a unique body that can soothe his hunting tired body with a sip of alcohol. Of course, he tend to believe in superstitions to keep up with the good fortune.]]></entry>
 
+    <!-- town events -->
+
+	<entry id="town_event_title_beasthunter_first_recruit"><![CDATA[술취한 이방인]]></entry>
+	<entry id="town_event_description_beasthunter_first_recruit"><![CDATA[최근에 붙잡힌 낯선 사람이 있습니다. 그를 술에 취한 행동으로 마을 감옥에 보낼 이유가 없지만, 사람들은 그를 마을을 위협하는 도적 중 한 명으로 의심했습니다. 사형 집행일이 얼마 남지 않았습니다. 당신이 그를 고용하면 그를 구할 수 있습니다.]]></entry>
+
 	<!-- Hamlet Strings and Skills-->
 
 	<entry id="combat_skill_name_beasthunter_BH_thinning"><![CDATA[Thinning]]></entry>

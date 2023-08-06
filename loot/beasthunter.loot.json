@@ -7,7 +7,7 @@
             "dungeon" : "",
             "entries" :
             [
-                { "type" : "table", "chances" : 1, "data" : { "table" : "S" }}
+                { "type" : "item", "chances" : 1, "data" : { "type" : "supply", "id" : "beasthunter_game_supply_1", "amount" : 1 }}
             ]
         }
     ]
