@@ -1,26 +1,26 @@
 
 beasthunter.sprite.defend.png
-size: 1174,407
+size: 1221,494
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 1
   rotate: true
-  xy: 2, 40
+  xy: 616, 127
   size: 365, 603
   orig: 561, 724
   offset: 110, 32
   index: -1
 body 1
   rotate: true
-  xy: 607, 2
-  size: 403, 500
-  orig: 925, 590
-  offset: 154, 6
+  xy: 2, 2
+  size: 490, 612
+  orig: 1065, 679
+  offset: 167, 5
   index: -1
 shadow
-  rotate: true
-  xy: 1109, 48
+  rotate: false
+  xy: 616, 62
   size: 357, 63
   orig: 357, 63
   offset: 0, 0
