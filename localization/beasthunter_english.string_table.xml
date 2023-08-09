@@ -10,7 +10,7 @@
     <!-- town events -->
 
 	<entry id="town_event_title_beasthunter_first_recruit"><![CDATA[A Drunk Stranger]]></entry>
-	<entry id="town_event_description_beasthunter_first_recruit"><![CDATA[There's a stranger caught recently. His acting drunk is not the reason for imprisonment, but people suspecting him to be one of the brigands is. Execution is tomorrow, but you can save him if you hire him.]]></entry>
+	<entry id="town_event_description_beasthunter_first_recruit"><![CDATA[We caught a stranger recently. His drunken state was not the reason behind his imprisonment, rather, the townsfolk suspected him to be part of the common banditry. His execution is tomorrow, his fate is in your hands now.]]></entry>
 
 	<!-- Hamlet Strings and Skills-->
 
@@ -95,6 +95,7 @@ Will to Live]]></entry>
 Free Action{colour_end}]]></entry>
     <entry id="str_skill_mode_info_BH_transformed"><![CDATA[
 {colour_start|notable}After Transformation:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_forward"><![CDATA[{colour_start|move}Forward{colour_end} 2]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_1"><![CDATA[Unleash the Sprouts
 {colour_start|mark}Mark{colour_end} Self]]></entry>
 	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_BH_Thinning_TT_2"><![CDATA[%+d%% {colour_start|notable}ALL{colour_end} Resists]]></entry>

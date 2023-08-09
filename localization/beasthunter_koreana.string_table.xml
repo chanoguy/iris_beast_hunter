@@ -91,6 +91,7 @@ Will to Live]]></entry>
 Free Action{colour_end}]]></entry>
     <entry id="str_skill_mode_info_BH_transformed"><![CDATA[
 {colour_start|notable}After Transformation:{colour_end}]]></entry>
+	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_forward"><![CDATA[{colour_start|move}Forward{colour_end} 2]]></entry>
 	<entry id="buff_stat_tooltip_upgrade_discount_BH_Thinning_TT_1"><![CDATA[Unleash the Sprouts
 {colour_start|mark}Mark{colour_end} Self]]></entry>
 	<entry id="buff_stat_tooltip_quirk_tag_evolution_duration_BH_Thinning_TT_2"><![CDATA[%+d%% {colour_start|notable}ALL{colour_end} Resists]]></entry>

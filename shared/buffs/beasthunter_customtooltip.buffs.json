@@ -2,6 +2,19 @@
    "buffs":
    [
       {
+         "id" : "BH_Thinning_TT_forward",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "BH_Thinning_TT_forward",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
          "id" : "BH_Thinning_TT_1",
          "stat_type" : "upgrade_discount",
          "stat_sub_type" : "BH_Thinning_TT_1",

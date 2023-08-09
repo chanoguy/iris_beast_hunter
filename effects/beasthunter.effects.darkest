@@ -29,6 +29,7 @@ effect: .name "BH Thinning Resistance Buff 5" .target "performer" .duration 1 .b
 effect: .name "BH Thinning Other Buffs" .target "performer" .duration 1 .buff_duration_type combat_end .buff_ids "BH Thinning MAXHP Buff" "BH Thinning SPD Debuff" .on_hit true .on_miss true
 effect: .name "BH Thinning Cure Heal" .target "target" .cure 1 .heal_percent 0.34 .on_hit true .on_miss true
 effect: .name "BH Thinning Unmark" .target "performer" .untag 1 .on_hit true .on_miss true .has_description false
+effect: .name "BH Thinning TT Forward" .target "performer" .skill_instant true .buff_ids "BH_Thinning_TT_forward" .on_hit true .on_miss true
 effect: .name "BH Thinning TT 1" .target "performer" .skill_instant true .buff_ids "BH_Thinning_TT_1" .on_hit true .on_miss true
 effect: .name "BH Thinning TT 2 lv1" .target "performer" .buff_ids "BH_Thinning_TT_2_lv1" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
 effect: .name "BH Thinning TT 2 lv2" .target "performer" .buff_ids "BH_Thinning_TT_2_lv2" .on_hit true .on_miss true .buff_source_type bsrc_notspecified
